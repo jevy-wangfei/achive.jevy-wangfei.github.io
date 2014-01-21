@@ -3,10 +3,39 @@
 　　<head>
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 　　　　<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="{{ site.url }}/css/css.css">
 　　</head>
 　　<body>
 
 　　　　{{ content }}
 
 　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#filterDesign,#filterPhoto,#filterVideo,#filterArticle,#filterPersonal,#filterOff').click(function(e) {
+                var filterSelect = "#" + this.id,
+                    compare = this.id.substring(6).toLowerCase().toString(),
+                    post = $('.post__timeline'),
+                    post2 = $('.post__inspiration');
+
+                post.fadeOut(800);
+                post2.fadeOut(800);
+
+                $('.filters__categories').children().removeClass('active');
+                $(filterSelect).addClass('active');
+
+                if (compare === "off") {
+                    post.fadeIn(800);
+                    post2.fadeIn(800);
+                }
+                else {
+                    post.filter('.' + compare).fadeIn(800);
+                    post2.filter('.' + compare).fadeIn(800);
+                };
+
+                e.preventDefault();
+            });
+        });
+    </script>
 　　</html>

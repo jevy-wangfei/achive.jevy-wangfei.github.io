@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+        <div class="site-wrapper--big site-wrapper--bignohead">
+
+            <div class="site-wrapper--small">
+
+                <div class="breadcrumb">
+                    <hr>
+                    <p><a href="{{ site.baseurl }}">Home</a> <span class="separator">></span> <a href="../../../../writing/">Things I've Written</a> <span class="separator">></span> {{ page.title }}</p>
+                    <hr class="flip">
+                </div>
+
+                <div class="post__medium">
+                    <h1>{{ page.title }}</h1>
+                    <div class="medium__meta">
+                        <hr>
+                        <p>I posted this {{ page.date | date: "%B %d %Y" }} • <a href="{{ page.medium }}">Comment on Medium</a></p>
+                        <hr class="flip">
+                    </div>
+                    {{ content }}
+                </div>
+                <hr>
+                {% include footer.html %}
+
+            </div>
+        </div>
