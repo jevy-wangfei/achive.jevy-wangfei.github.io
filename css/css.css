@@ -5,7 +5,10 @@ html {
 	     -o-background-size: cover;
 	        background-size: cover;
 }
+body{margin:0; color:#fbfcf1;font-family:"ff-tisa-web-pro",Georgia,Times,Times New Roman,serif}
 
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
 a,a:link,a:visited {
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 	color: #cbedff;
@@ -25,7 +28,29 @@ a:hover {
 	color: darken(#cbedff,10%);
 }
 
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+small{font-size:80%}
+blockquote{border-left:5px solid rgba(255,255,255,0.2);background-color:rgba(255,255,255,0.1);display:table;margin:18px 0;padding:12px}
+blockquote:before,blockquote:after{content:"";display:table}
+blockquote:after{clear:both}
+blockquote p{font-style:italic;float:right;margin:0}
+blockquote .quote{color:#f9e6ae;display:table-cell;font:40px/20px Georgia;padding:12px 12px 0 0;vertical-align:top}
+
+
 img {
 	box-shadow: 0 0 12px rgba(0,0,0,0.15);
 	width: 100%;
 }
+.timeline__body img{margin-top:18px}
+@media screen and (min-width: 700px){.timeline__body{float:right;padding-left:24px;position:relative;top:-2px;width:680px}
+.timeline__body img{margin-top:24px}
+}
+.timeline__meta{margin:0 0 12px}
+@media screen and (min-width: 700px){.timeline__meta{float:left;margin:0;text-align:right;width:120px}
+}
+
+#footer{text-align:center}
+#footer p{font-size:14px}

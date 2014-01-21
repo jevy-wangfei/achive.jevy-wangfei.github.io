@@ -2,11 +2,36 @@
 layout: default
 title: 我的Blog
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
-</ul> 
+<div id="header">
+{% include header.html %}
+</div>
+<div id="timeline">
+				{% for post in site.posts %}
+					{% if post.category == 'timeline' %}
+					    <div class="post__timeline {{ post.tags | join:' ' }}">
+					    	<div class="timeline__meta">
+								<time datetime="{{ post.date }}">
+									{{ post.date | date: "%B" }}<small>{{ post.date | date: "%Y" }}</small>
+								</time>	
+							</div>
+							<div class="timeline__body">
+								{% if post.quote %}
+									{{ post.content }}
+									<blockquote>
+										<span class="quote">&#8220;<br>&#8221;</span>
+										<p>{{ post.quote }}</p>
+									</blockquote>
+								{% else %}
+									{{ post.content }}
+								{% endif %}
+							    <hr>
+							</div>
+					    </div>
+					{% endif %}
+				{% endfor %}
+
+</div>
+<div id="footer">
+{% include footer.html %}
+</div>
 
