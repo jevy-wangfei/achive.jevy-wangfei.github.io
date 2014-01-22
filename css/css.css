@@ -18,7 +18,7 @@ body{margin:0; color:#fbfcf1;font-family:Georgia,Times,Times New Roman}
 .timeline__body {imgfloat:left; padding-left:150px;position:relative;top:-2px;width:580px; margin-top:18px; }
 .timeline__body img{margin-top:24px}
 
-.active{color:#008FEE}
+
 
 
 #footer{ height:80px; padding-left:200px;  padding-right:200px;  padding-top: 10px; margin-bottom:-20px;text-align:center; clear:both; background:gray;}
@@ -33,11 +33,13 @@ a,a:link,a:visited {
 	font-style: italic;
 	text-decoration: none;
 }
-
+a img,a:link img,a:visited img{border:0;display:block}
 a:hover {
 	border: 0;
 	color: darken(#cbedff,10%);
 }
+
+.live{color:#008FEE}
 
 b,strong{font-weight:bold}
 blockquote{margin:1em 40px}

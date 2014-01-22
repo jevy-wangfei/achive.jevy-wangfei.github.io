@@ -17,7 +17,7 @@
             $('#personal,#article,#picture,#design,#live').click(function(e) {
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
-				var menu_show = this.id.toLowerCase().toString(),
+				var menu_show = this.id.toLowerCase().toString();
 				post.fadeOut(600);
 				//alert(filterSelect);
                 $('#menu').children().removeClass('live');
