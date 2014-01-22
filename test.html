@@ -4,17 +4,30 @@
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 　　　　<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="./css/css.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#all').click(function(e) {
+                var filterSelect = "#" + this.id;
+                $('#menu').children().removeClass('all');
+				//alert(filterSelect);
+                $(filterSelect).addClass('all');
+
+                e.preventDefault();
+            });
+        });
+		</script>
 　　</head>
 　　<body>
 <div id="header">
 		<div id="name"> Jevy <br/> Wang Fei's </div>
 <div id="blog">Blog</div>
 <div id="menu">
-<li><a href="#">Personal</a></li>
-<li><a href="#">Article</a></li>
-<li><a href="#">Picture</a></li>
-<li><a href="#">Design</a></li>
-<li><a href="#">All</a></li>
+<li><a href="#" id="personal">Personal</a></li>
+<li><a href="#" id="article">Article</a></li>
+<li><a href="#" id="picture">Picture</a></li>
+<li><a href="#" id="design">Design</a></li>
+<li><a href="#" class="all">All</a></li>
 </div>
 </div>
 

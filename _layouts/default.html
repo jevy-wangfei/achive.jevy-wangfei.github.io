@@ -15,26 +15,11 @@
 	
         $(document).ready(function() {
             $('#personal,#article,#picture,#design,#all').click(function(e) {
-                var filterSelect = "#" + this.id,
-                    compare = this.id.substring(6).toLowerCase().toString(),
-                    //post = $('.post__timeline'),
-                    //post2 = $('.post__inspiration');
-
-                //post.fadeOut(800);
-                //post2.fadeOut(800);
+                var filterSelect = "#" + this.id;                   
 				alert(filterSelect);
                 $('#menu').children().removeClass('all');
 				alert(filterSelect);
                 $(filterSelect).addClass('all');
-
-                //if (compare === "off") {
-                 //   post.fadeIn(800);
-                 //   post2.fadeIn(800);
-                //}
-                //else {
-                 //   post.filter('.' + compare).fadeIn(800);
-                 //   post2.filter('.' + compare).fadeIn(800);
-                //};
 
                 e.preventDefault();
             });
