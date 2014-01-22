@@ -32,5 +32,6 @@ title: Jevy's Blog
 
 </div>
 
+<div id="footer">
 {% include footer.html %}
-
+</div>
