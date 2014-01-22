@@ -27,7 +27,7 @@
 					post.fadeIn(600);
 				}
 				else {
-					post+".menu_show."+fadeIn(600);
+					post.filter('.' + menu_show).fadeIn(600);
 				};
                 e.preventDefault();
             });

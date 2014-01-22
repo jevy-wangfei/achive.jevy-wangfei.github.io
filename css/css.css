@@ -44,7 +44,7 @@ a:hover {
 b,strong{font-weight:bold}
 blockquote{margin:1em 40px}
 dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+hr{background-color:rgba(255,255,255,0.1);border:0;border-top:1px solid rgba(0,0,0,0.2);height:1px;margin:36px 0}
 small{font-size:80%}
 blockquote{border-left:5px solid rgba(255,255,255,0.2);background-color:rgba(255,255,255,0.1);display:table;margin:18px 0;padding:12px}
 blockquote:before,blockquote:after{content:"";display:table}
