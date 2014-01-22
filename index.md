@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 我的Blog
+title: Jevy's Blog
 ---
 <div id="header">
 {% include header.html %}
