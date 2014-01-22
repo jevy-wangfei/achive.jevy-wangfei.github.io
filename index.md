@@ -11,7 +11,7 @@ title: Jevy's Blog
 					    <div class="post__timeline {{ post.tags | join:' ' }}">
 					    	<div class="timeline__meta">
 								<time datetime="{{ post.date }}">
-									{{ post.date | date: "%B" }}<small>{{ post.date | date: "%Y" }}</small>
+									{{ post.date | date: "%B" }}<br/><small>{{ post.date | date: "%Y" }}</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
