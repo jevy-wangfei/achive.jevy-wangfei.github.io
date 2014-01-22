@@ -12,32 +12,32 @@
 　　</body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-	/*
+	
         $(document).ready(function() {
-            $('#filterDesign,#filterPhoto,#filterVideo,#filterArticle,#filterPersonal,#filterOff').click(function(e) {
+            $('#personal,#article,#picture,#design,#all').click(function(e) {
                 var filterSelect = "#" + this.id,
                     compare = this.id.substring(6).toLowerCase().toString(),
-                    post = $('.post__timeline'),
-                    post2 = $('.post__inspiration');
+                    //post = $('.post__timeline'),
+                    //post2 = $('.post__inspiration');
 
-                post.fadeOut(800);
-                post2.fadeOut(800);
+                //post.fadeOut(800);
+                //post2.fadeOut(800);
 
-                $('.filters__categories').children().removeClass('active');
-                $(filterSelect).addClass('active');
+                $('.filters__categories').children().removeClass('all');
+                $(filterSelect).addClass('all');
 
-                if (compare === "off") {
-                    post.fadeIn(800);
-                    post2.fadeIn(800);
-                }
-                else {
-                    post.filter('.' + compare).fadeIn(800);
-                    post2.filter('.' + compare).fadeIn(800);
-                };
+                //if (compare === "off") {
+                 //   post.fadeIn(800);
+                 //   post2.fadeIn(800);
+                //}
+                //else {
+                 //   post.filter('.' + compare).fadeIn(800);
+                 //   post2.filter('.' + compare).fadeIn(800);
+                //};
 
                 e.preventDefault();
             });
         });
-		*/
+		
     </script>
 　　</html>
