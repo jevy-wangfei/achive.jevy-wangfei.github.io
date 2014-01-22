@@ -15,11 +15,14 @@
 	
         $(document).ready(function() {
             $('#personal,#article,#picture,#design,#all').click(function(e) {
-                var filterSelect = "#" + this.id;                   
-				alert(filterSelect);
+                var filterSelect = "#" + this.id;
+				post = $('.post__timeline');
+				post.fadeOut(800);
+				//alert(filterSelect);
                 $('#menu').children().removeClass('all');
 				alert(filterSelect);
                 $(filterSelect).addClass('all');
+				post.fadeIn(800);
 
                 e.preventDefault();
             });
