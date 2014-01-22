@@ -9,10 +9,18 @@
         $(document).ready(function() {
             $('#personal,#article,#picture,#design,#all').click(function(e) {
                 var filterSelect = "#" + this.id;
-                $('#menu').children().removeClass('all');
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
 				//alert(filterSelect);
-                $(filterSelect).addClass('all');
-
+                $('#menu').children().removeClass('live');
+				alert(filterSelect);
+                $(filterSelect).addClass('live');
+				if(menu_show=="all"){
+					post.fadeIn(600);
+				}else{
+					post."menu_show".fadeIn(600);
+				}
                 e.preventDefault();
             });
         });
