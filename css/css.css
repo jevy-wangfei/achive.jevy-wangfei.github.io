@@ -6,6 +6,8 @@ body{margin:0; color:#fbfcf1;font-family:Georgia,Times,Times New Roman}
 #header{clear:both; height:30px;}
 #name{height:25; font-size:16px;}
 #blog{float: left; height:25px; margin-top:5px; font-size: 24px;}
+#menu{float:right; margin-top:5px;}
+#menu li {padding:5px;}
 
 #timeline {width:900px; clear:both;}
 
