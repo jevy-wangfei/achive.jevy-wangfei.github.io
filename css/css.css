@@ -1,11 +1,22 @@
 html {
-	background: #838876 url(../img/bk1.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+	background: url(../img/bk1.jpg) no-repeat center fixed;
 }
-body{margin:0; color:#fbfcf1;font-family:"ff-tisa-web-pro",Georgia,Times,Times New Roman,serif}
+body{margin:0; color:#fbfcf1;font-family:Georgia,Times,Times New Roman}
+
+#header{clear:both; height:30px; background: url(../img/bk.jpg)}
+
+#timeline {width:900px; clear:both;}
+
+.timeline__meta{margin:0 0 12px; float:left;margin:0;text-align:right;width:120px}
+
+.timeline__body {imgfloat:right; padding-left:24px;position:relative;top:-2px;width:780px; margin-top:18px; }
+.timeline__body img{margin-top:24px}
+}
+
+
+#footer{text-align:center; clear:both;}
+#footer p{font-size:14px}
+
 
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
@@ -44,13 +55,3 @@ img {
 	box-shadow: 0 0 12px rgba(0,0,0,0.15);
 	width: 100%;
 }
-.timeline__body img{margin-top:18px}
-@media screen and (min-width: 700px){.timeline__body{float:right;padding-left:24px;position:relative;top:-2px;width:680px}
-.timeline__body img{margin-top:24px}
-}
-.timeline__meta{margin:0 0 12px}
-@media screen and (min-width: 700px){.timeline__meta{float:left;margin:0;text-align:right;width:120px}
-}
-
-#footer{text-align:center}
-#footer p{font-size:14px}
