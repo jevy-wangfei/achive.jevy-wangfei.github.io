@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="./css/css.css">
+　　</head>
+　　<body>
+<div id="header">
+		<div id="name"> Jevy <br/> Wang Fei's </div>
+<div id="blog">Blog</div>
+<div id="menu">
+<li><a href="#">Personal</a></li>
+<li><a href="#">Article</a></li>
+<li><a href="#">Picture</a></li>
+<li><a href="#">Design</a></li>
+<li><a href="#">All</a></li>
+</div>
+</div>
+
+
+<div id="timeline">
+				
+					    <div class="post__timeline {{ post.tags | join:' ' }}">
+					    	<div class="timeline__meta">
+								<time datetime="{{ post.date }}">
+									{{ post.date | date: "%B" }}<small>{{ post.date | date: "%Y" }}</small>
+								</time>	
+							</div>
+							<div class="timeline__body">
+								<br/>dfsdfasdf
+							   <br/>
+							   <br/>
+							   <br/><br/>
+							   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+							   <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+							</div>
+					    </div>
+						
+</div>
+
+
+	                <div id="footer">
+                    <p>I made this out of love and gumdrops. <a href="mailto:jevy.wangfei@gmail.com">Contact me here</a>.
+                    	<br>See how I did this on <a href="https://github.com/jevy-wangfei/jevy-wangfei.github.com">Github.</a></p>
+                </div>
+　　</body>

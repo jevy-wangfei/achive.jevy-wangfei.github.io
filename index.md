@@ -31,7 +31,6 @@ title: Jevy's Blog
 				{% endfor %}
 
 </div>
-<div id="footer">
+
 {% include footer.html %}
-</div>
 
