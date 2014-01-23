@@ -25,7 +25,14 @@ Bosh - Siemens Home Appliances Co., LTD. -- Chuzhou, Anhui, P. R. China. (Jul. 2
 <h2>Program Language: </h2>
 <p>
 proficient with Java (J2EE), C/C++, Python, PHP, PL/SQL, Shell and JavaScript.<br />
-Design Experiment Data Processing System and Class Topic Forum by Java, MySQL and HTML.<br /> Design Webpages Management and Image Affine Transform by java.<br /> Design Mutual Comment System and Wine Sale Site by PHP, PL/SQL and JavaScript.<br /> Design Data hard backup tool by Python.<br /> To apply third-party jars into project practice such as JFreeChart, Struts2, Hibernate, etc.<br /> To apply math knowledge into graph practice such as matrix, curve-fitting, iterative calculation, etc.<br /> <h2>Operation Skill: </h2>proficient with AIX, Linux (Suse), Oracle, Times Ten, MySQL and Disk Array.<br /> Capable of working on AIX and Linux operate system.<br /> Capable of operate and manage Oracle, Times Ten and MySQL database.<br /> Capable of manage Disk Array resource from console and AIX.<br /> Design several procedures by PL/SQL on Oracle to process data.<br /> Design several tools by Shell on AIX and Linux to monitor process and improve working efficiency.<br /> <h2>Project Management Skill: </h2>proficient with Team Management, Budget Management, Threat Management, and Resource Management.<br /> Lunch the Myanmar Operation Development (MOD) project to commercial usage within minimal time.<br /> Finish the Bangladesh Inter Connection Exchange (ICX) &amp; International Gate Way (IGW) project with limited resources and win Project Acceptance Certification.<br /></p>
+Design Experiment Data Processing System and Class Topic Forum by Java, MySQL and HTML.<br /> Design Webpages Management and Image Affine Transform by java.<br /> Design Mutual Comment System and Wine Sale Site by PHP, PL/SQL and JavaScript.<br /> Design Data hard backup tool by Python.<br /> To apply third-party jars into project practice such as JFreeChart, Struts2, Hibernate, etc.<br /> To apply math knowledge into graph practice such as matrix, curve-fitting, iterative calculation, etc.<br /> </p>
+
+<h2>Operation Skill: </h2>
+<p>proficient with AIX, Linux (Suse), Oracle, Times Ten, MySQL and Disk Array.<br /> Capable of working on AIX and Linux operate system.<br /> Capable of operate and manage Oracle, Times Ten and MySQL database.<br /> Capable of manage Disk Array resource from console and AIX.<br /> Design several procedures by PL/SQL on Oracle to process data.<br /> Design several tools by Shell on AIX and Linux to monitor process and improve working efficiency.<br /> </p>
+
+<h2>Project Management Skill: </h2>
+<p>proficient with Team Management, Budget Management, Threat Management, and Resource Management.<br /> Lunch the Myanmar Operation Development (MOD) project to commercial usage within minimal time.<br /> Finish the Bangladesh Inter Connection Exchange (ICX) &amp; International Gate Way (IGW) project with limited resources and win Project Acceptance Certification.<br /></p>
+
 <h1>PROJECTS</h1>
 <h2>Bangladesh Inter Connection Exchange (ICX) &amp; International Gate Way (IGW) project (Jun. 2012 -- Dec. 2012).</h2>
 
