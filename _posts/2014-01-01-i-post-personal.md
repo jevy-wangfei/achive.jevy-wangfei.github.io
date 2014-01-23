@@ -3,7 +3,7 @@ layout: default
 title: Curriculum Vitae
 category: timeline
 tags: personal
-quote: Applying for a Master Degree at Australian Universtiy.
+quote: Applying for a Master Degree in Australian Universty.
 ---
 
 <h1>FEI WANG</h1>
@@ -16,7 +16,7 @@ HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN<br />
 	Average Score (GPA): 76%. </p>
 
 <h1>ENGLISH PROFICIENCY</h1>
-TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20</p>
+<p>TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20</p>
 
 <h1>WORK EXPERIENCE (Jul. 2010 -- Apr. 2013)</h1>
 <h2>Project Manager in International Customer Service Department (Working overseas, Full-Time)
@@ -54,8 +54,8 @@ Design Mutual Comment System and Wine Sale Site by PHP, PL/SQL and JavaScript.<b
 Design Data hard backup tool by Python.<br />
 To apply third-party jars into project practice such as JFreeChart, Struts2, Hibernate, etc.<br />
 To apply math knowledge into graph practice such as matrix, curve-fitting, iterative calculation, etc.<br /></p>
-	<h2>Operation Skill: </h2> proficient with AIX, Linux (Suse), Oracle, Times Ten, MySQL and Disk Array.<br />
-<p>Capable of working on AIX and Linux operate system.<br />
+	<h2>Operation Skill: </h2> <p>proficient with AIX, Linux (Suse), Oracle, Times Ten, MySQL and Disk Array.<br />
+Capable of working on AIX and Linux operate system.<br />
 Capable of operate and manage Oracle, Times Ten and MySQL database.<br />
 Capable of manage Disk Array resource from console and AIX.<br />
 Design several procedures by PL/SQL on Oracle to process data.<br />
