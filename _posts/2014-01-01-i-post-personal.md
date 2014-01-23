@@ -92,19 +92,19 @@ Achievement: Lunch the project in commerce, migrate million customers' data to t
 <h2>Vietnam veittel project (Sep. 2010 -- Jan. 2011).</h2>
 <p>Configure the telecom tariff on BOSS according customers' requirements.<br />
 Manage the Unit Interface Platform (provide services such as recharge balance, inquire balance, service open/close, calling record check, bill check, etc.) which connects with many companies. <br />
-Achievement：Maintain the BOSS to make it runs stably.<br />
+Achievement: Maintain the BOSS to make it runs stably.<br />
 </p>
 <h2>Data process and manage system for chemical experiment of Chemical Engineer and Technology college of HFUT (Oct. 2009 -- Sep. 2010).</h2>
 <p>Design the data relation, data process/manage logical, display interface according students requirements.<br />
 Program the system according the design by Java, JavaScript, SQL and HTML.<br />
 Apply third-party jars to the system such as Struts2, Spring, Hibernate, JFreeChart.<br />
 Apply matrix math, curve fitting, chart graph and chemical knowledge to the system.<br />
-Achievement：Complement the system and apply it to serve students in May 2010.<br />
+Achievement: Complement the system and apply it to serve students in May 2010.<br />
 </p>
 <h2>Design and program for mutual comment system (Oct. 2009 -- Nov. 2009).</h2>
 <p>Design the data relation and display interface based on browser and server structure. <br />
 Program the system according the design by PHP, JavaScript and SQL.<br />
-Achievement：Complement the system and apply it to serve student in Nov. 2009.<br />
+Achievement: Complement the system and apply it to serve student in Nov. 2009.<br />
 </p>
 <h1>SOCIAL ACTIVITIES</h1>
 <p>Organize a summer social practice and made a survey about life situations of left-behind old people and children. (Jul. 2007 -- Aug. 2007)<br />
