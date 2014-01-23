@@ -43,6 +43,7 @@ Learn Material flow about ABS and ABS sheet extrusion process control.<br />
 Learn thermoforming technics and process control.<br />
 Learn the knowledge about tools like as OEE, TPM, SMED, 5S, VSM/VSD, etc.<br />
 Achievement: Study ability is satisfied by the engineers of TMP department.<br />
+
 </p>
 <h1>SKILLS </h1>
 
