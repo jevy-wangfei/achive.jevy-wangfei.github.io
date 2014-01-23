@@ -16,11 +16,12 @@ title: Jevy's Blog
 							</div>
 							<div class="timeline__body">
 								{% if post.quote %}
-									{{ post.content }}
+									
 									<blockquote>
 										<span class="quote">&#8220;<br>&#8221;</span>
 										<p>{{ post.quote }}</p>
 									</blockquote>
+									{{ post.content }}
 								{% else %}
 									{{ post.content }}
 								{% endif %}
