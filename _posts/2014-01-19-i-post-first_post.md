@@ -4,9 +4,7 @@ title: About this blog
 category: timeline
 tags: article
 ---
-<h2>{{ page.title }}</h2>
-<p>This is the first post on this new blog. </p>
-<p>I will update all of the messages about me here. </p>
+<p>This is the first post on this new blog. I will update all of the messages about me here. </p>
 <p>Besides, I also displayed my design and picture in this blog. I am very interested in computer technology very much, and I hope to post the laterest information here.
 </p>
 <p>Also, I am an amateur photographer. I will display the most beautiful pictures here.</p>
