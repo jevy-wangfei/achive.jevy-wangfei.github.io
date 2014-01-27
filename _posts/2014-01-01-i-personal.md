@@ -1,263 +1,25 @@
-<html>
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 14 (filtered)">
-
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
-@font-face
-	{font-family:ËÎÌå;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:ËÎÌå;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
-@font-face
-	{font-family:"\@ËÎÌå";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"\@MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:10.5pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.5pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-link:"Ò³Ã¼ Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:center;
-	layout-grid-mode:char;
-	border:none;
-	padding:0cm;
-	font-size:9.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-link:"Ò³½Å Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	layout-grid-mode:char;
-	font-size:9.0pt;
-	font-family:"Calibri","sans-serif";}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
-	{mso-style-link:"´¿ÎÄ±¾ Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:10.0pt;
-	font-family:ËÎÌå;}
-p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.5pt;
-	font-family:"Calibri","sans-serif";
-	font-weight:bold;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:9.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-span.Char
-	{mso-style-name:"Ò³Ã¼ Char";
-	mso-style-link:Ò³Ã¼;}
-span.Char0
-	{mso-style-name:"Ò³½Å Char";
-	mso-style-link:Ò³½Å;}
-p.ResumeTitle, li.ResumeTitle, div.ResumeTitle
-	{mso-style-name:"Resume Title";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:12.0pt;
-	font-family:"Tahoma","sans-serif";
-	font-weight:bold;}
-span.Char1
-	{mso-style-name:"´¿ÎÄ±¾ Char";
-	mso-style-link:´¿ÎÄ±¾;
-	font-family:ËÎÌå;}
-p.ResumeSectionHeaders, li.ResumeSectionHeaders, div.ResumeSectionHeaders
-	{mso-style-name:"Resume Section Headers";
-	mso-style-link:"Resume Section Headers Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Tahoma","sans-serif";
-	font-weight:bold;}
-span.ResumeSectionHeadersChar
-	{mso-style-name:"Resume Section Headers Char";
-	mso-style-link:"Resume Section Headers";
-	font-family:"Tahoma","sans-serif";
-	font-weight:bold;}
-p.ResumeBulletPoints, li.ResumeBulletPoints, div.ResumeBulletPoints
-	{mso-style-name:"Resume Bullet Points";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:18.0pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	text-indent:-18.0pt;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.JobTitle, li.JobTitle, div.JobTitle
-	{mso-style-name:"Job Title";
-	mso-style-link:"Job Title Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:4.0pt;
-	margin-left:0cm;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	page-break-after:avoid;
-	font-size:10.0pt;
-	font-family:"Tahoma","sans-serif";
-	text-decoration:underline;}
-span.JobTitleChar
-	{mso-style-name:"Job Title Char";
-	mso-style-link:"Job Title";
-	font-family:"Tahoma","sans-serif";
-	text-decoration:underline;}
-p.Location, li.Location, div.Location
-	{mso-style-name:Location;
-	mso-style-link:"Location Char";
-	margin-top:6.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:10.0pt;
-	font-family:"Tahoma","sans-serif";}
-span.LocationChar
-	{mso-style-name:"Location Char";
-	mso-style-link:Location;
-	font-family:"Tahoma","sans-serif";}
-p.CollegeDegree, li.CollegeDegree, div.CollegeDegree
-	{mso-style-name:"College Degree";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:2.0pt;
-	margin-left:0cm;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:10.0pt;
-	font-family:"Tahoma","sans-serif";
-	font-weight:bold;}
-span.keyword
-	{mso-style-name:keyword;}
-span.apple-converted-space
-	{mso-style-name:apple-converted-space;}
- /* Page Definitions */
- @page WordSection1
-	{size:612.0pt 792.0pt;
-	margin:42.55pt 53.85pt 42.55pt 53.85pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
-
-</head>
-
-<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
-
-<div class=WordSection1>
-
+---
+layout: default
+title: Fei Wang's CV
+category: timeline
+tags: personal
+---
 <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
 lang=EN-US style='font-size:18.0pt;font-family:"Tahoma","sans-serif";
 background:white'>FEI WANG</span></p>
 
 <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì</span><span lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Hefei</span><span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬</span><span lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Hefei</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> University of Technology</span><span lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>,
 </span><span lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Hefei</span><span
  lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>, Anhui, CHINA </span></p>
 
 <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì</span><span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Phone:
 0086 </span><span lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>13093458195</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> </span><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì</span><span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Email: </span><span
 lang=EN-US><a href="mailto:jevy.wangfei@gmail.com"><span style='font-size:10.0pt;
 font-family:"Tahoma","sans-serif";color:windowtext;text-decoration:none'>jevy.wangfei@gmail.com</span></a></span></p>
@@ -265,13 +27,13 @@ font-family:"Tahoma","sans-serif";color:windowtext;text-decoration:none'>jevy.wa
 <p class=ResumeSectionHeaders style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:0cm'><span style='position:relative;z-index:
 251657728;left:-11px;top:0px;width:660px;height:6px'><img width=660 height=6
-src="./img/image001.png"></span><br clear=ALL>
+src="../img/image001.png"></span><br clear=ALL>
 <span lang=X-NONE style='text-transform:uppercase'>Education</span></p>
 
 <p class=CollegeDegree><span lang=EN-US style='text-transform:uppercase'>Bachelor
 of Engineering in Chemical Engineering and Technology (BECET), </span><span
 lang=EN-US style='text-transform:uppercase'>Sep. 2006 </span><span lang=EN-US
-style='font-weight:normal'>¨C</span><span lang=EN-US style='text-transform:uppercase'>
+style='font-weight:normal'>Éƒ</span><span lang=EN-US style='text-transform:uppercase'>
 jun.</span><span lang=EN-US style='text-transform:uppercase'>2010</span></p>
 
 <p class=CollegeDegree><span lang=EN-US style='text-transform:uppercase;
@@ -279,11 +41,11 @@ jun.</span><span lang=EN-US style='text-transform:uppercase'>2010</span></p>
 font-weight:normal'> University of Technology</span><span lang=EN-US
 style='text-transform:uppercase;font-weight:normal'> </span><span lang=EN-US
 style='font-weight:normal'>(HFUT) </span><span lang=EN-US style='text-transform:
-uppercase;font-weight:normal'>¨C Hefei, Anhui, C</span><span lang=EN-US
+uppercase;font-weight:normal'>Éƒ Hefei, Anhui, C</span><span lang=EN-US
 style='text-transform:uppercase;font-weight:normal'>N</span></p>
 
 <p class=CollegeDegree style='margin-left:18.0pt;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Wingdings;font-weight:normal'>¡ì<span
+lang=EN-US style='font-family:Wingdings;font-weight:normal'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Key
 Courses:</span><span lang=EN-US style='font-size:9.0pt;font-weight:normal'> </span><span
 lang=EN-US style='font-weight:normal'>Microcomputer Principles and
@@ -293,7 +55,7 @@ Advanced Physics, Inorganic Chemistry, Organic Chemistry, Analytical Chemistry,
 Physical Chemistry, etc.</span></p>
 
 <p class=CollegeDegree style='margin-left:18.0pt;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Wingdings;font-weight:normal'>¡ì<span
+lang=EN-US style='font-family:Wingdings;font-weight:normal'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Average
 Score (GPA): 76%. </span></p>
 
@@ -315,7 +77,7 @@ margin-bottom:2.0pt;margin-left:0cm'><span lang=X-NONE style='text-transform:
 uppercase'>Work Experience (</span><span lang=X-NONE style='font-size:10.0pt'>Jul</span><span
 lang=X-NONE style='font-size:10.0pt'>.</span><span lang=X-NONE
 style='font-size:10.0pt'> 2010 </span><span lang=X-NONE style='font-size:10.0pt;
-font-weight:normal'>¨C</span><span lang=X-NONE style='font-size:10.0pt'> Ap</span><span
+font-weight:normal'>Éƒ</span><span lang=X-NONE style='font-size:10.0pt'> Ap</span><span
 lang=X-NONE style='font-size:10.0pt'>r.</span><span lang=X-NONE
 style='font-size:10.0pt'> 2013</span><span lang=X-NONE style='text-transform:
 uppercase'>)</span></p>
@@ -327,7 +89,7 @@ Full-Time)</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.0pt'><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>ZETSoft
-Co., Ltd. ¨C Nanjing, Jiangsu, P. R. China. (Jul. 2010 ¨C Apr. 2013)</span></b></p>
+Co., Ltd. Éƒ Nanjing, Jiangsu, P. R. China. (Jul. 2010 Éƒ Apr. 2013)</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.0pt'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Implement
@@ -336,11 +98,11 @@ by advance technology about AIX, Linux, Oracle, PL/SQL, JAVA, Python and Shell.<
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.0pt'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Configure
-business on BOSS system following customers¡¯ requirements.</span></p>
+business on BOSS system following customerso requirements.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.0pt'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Migrate
-subscribers¡¯ data and services from old system to BOSS.</span></p>
+subscriberso data and services from old system to BOSS.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.0pt'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Coordinate
@@ -364,22 +126,22 @@ and Creative work is approved by the supervisor of my department.</span></p>
 College of Chemical Engineering and Technology (Part-Time)</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US>HFUT </span><span
-lang=EN-US>¨C Hefei, Anhui, P. R. China. (Sep. 2006 ¨C Jun. 2010)</span></p>
+lang=EN-US>Éƒ Hefei, Anhui, P. R. China. (Sep. 2006 Éƒ Jun. 2010)</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US
 style='font-weight:normal'>Organize meetings for routine classes and grades works.</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US
-style='font-weight:normal'>Receive students¡¯ enquires.</span></p>
+style='font-weight:normal'>Receive studentso enquires.</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US
-style='font-weight:normal'>Deal with students¡¯ information and scores to
+style='font-weight:normal'>Deal with studentso information and scores to
 arrange scholarship and award.</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US
 style='font-weight:normal'>Optimize the routine work by introducing Information
 Technology, such as develop a Mutual Comment System and program tools by PL/SQL
-to process students¡¯ information in database.</span></p>
+to process studentso information in database.</span></p>
 
 <p class=CollegeDegree style='text-indent:21.0pt'><span lang=EN-US>Achievement:
 </span><span lang=EN-US style='font-weight:normal'>Careful and patient work is
@@ -395,7 +157,7 @@ in Technology Management of Plastic Department (Full-Time)</span></b></p>
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Bosh -
-Siemens Home Appliances Co., LTD. ¨C Chuzhou, Anhui, P. R. China. (Jul. 2009 ¨C
+Siemens Home Appliances Co., LTD. Éƒ Chuzhou, Anhui, P. R. China. (Jul. 2009 Éƒ
 Aug. 2009)</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
@@ -431,7 +193,7 @@ margin-bottom:2.0pt;margin-left:0cm'><span lang=X-NONE style='text-transform:
 uppercase'>Skills</span><span lang=X-NONE style='text-transform:uppercase'> </span></p>
 
 <p class=CollegeDegree style='margin-left:18.0pt;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Wingdings;font-weight:normal'>¡ì<span
+lang=EN-US style='font-family:Wingdings;font-weight:normal'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Program
 Language: </span><span lang=EN-US style='font-weight:normal'>proficient with</span><span
 lang=EN-US> </span><span lang=EN-US style='font-weight:normal'>Java</span><span
@@ -465,7 +227,7 @@ style='font-weight:normal'>To apply math knowledge into graph practice such as
 matrix, curve-fitting, iterative calculation, etc.</span></p>
 
 <p class=CollegeDegree style='margin-left:18.0pt;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Wingdings;font-weight:normal'>¡ì<span
+lang=EN-US style='font-family:Wingdings;font-weight:normal'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Operation
 Skill: </span><span lang=EN-US style='font-weight:normal'>proficient with AIX, Linux
 (Suse), Oracle, Times Ten, MySQL and Disk Array.</span></p>
@@ -490,7 +252,7 @@ style='font-weight:normal'>Design several tools by Shell on AIX and Linux to
 monitor process and improve working efficiency.</span></p>
 
 <p class=CollegeDegree style='margin-left:18.0pt;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Wingdings;font-weight:normal'>¡ì<span
+lang=EN-US style='font-family:Wingdings;font-weight:normal'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Project
 Management Skill: </span><span lang=EN-US style='font-weight:normal'>proficient
 with Team Management, Budget Management, Threat Management, and Resource
@@ -513,11 +275,11 @@ margin-bottom:2.0pt;margin-left:0cm'><span lang=X-NONE style='text-transform:
 uppercase'>Projects</span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Bangladesh
 Inter Connection Exchange (ICX) &amp; International Gate Way (IGW) project (Jun.
-2012 ¨C Dec. 2012).</span></b></p>
+2012 Éƒ Dec. 2012).</span></b></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Promote the project
@@ -551,10 +313,10 @@ by customer and the header of my department. </span></p>
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Myanmar
-Operation and Develop (MOD) project (Mar. 2012 ¨C Jun. 2012).</span></b></p>
+Operation and Develop (MOD) project (Mar. 2012 Éƒ Jun. 2012).</span></b></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Promote the project
@@ -578,10 +340,10 @@ Acceptance Check (PAC).</span></p>
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:21.0pt;text-indent:-21.0pt'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Myanmar Postal
-and Telephone (MPT) project (Feb. 2011 ¨C Mar. 2012). </span></b></p>
+and Telephone (MPT) project (Feb. 2011 Éƒ Mar. 2012). </span></b></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Implement BOSS
@@ -594,7 +356,7 @@ maintain the recharge and balance inquire distributed system.</span></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Implement, configure
-and test service activation system which serves to control subscribers¡¯ service
+and test service activation system which serves to control subscriberso service
 state.</span></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
@@ -602,7 +364,7 @@ style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Configure and test te
 services for commercial lunch and business operation.</span></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
-style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Migrate subscribers¡¯
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Migrate subscriberso
 data and services from old system to BOSS (from Sybase to Oracle and Times Ten).</span></p>
 
 <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
@@ -616,22 +378,22 @@ to maintain the BOSS system.</span></p>
 <p class=MsoNormal style='text-indent:21.0pt'><b><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Achievement: </span></b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Lunch the
-project in commerce, migrate million customers¡¯ data to the BOSS system.</span></p>
+project in commerce, migrate million customerso data to the BOSS system.</span></p>
 
 <p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-indent:-21.0pt;text-autospace:none'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Vietnam
-veittel project (Sep. 2010 ¨C Jan. 2011).</span></b></p>
+veittel project (Sep. 2010 Éƒ Jan. 2011).</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:0cm;text-indent:21.0pt;text-autospace:none'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Configure
-the telecom tariff on BOSS according customers¡¯ requirements.</span></p>
+the telecom tariff on BOSS according customerso requirements.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><span lang=EN-US
@@ -643,7 +405,7 @@ many companies. </span></p>
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Achievement</span></b><b><span
-style='font-size:10.0pt;font-family:ËÎÌå'>£º</span></b><span lang=EN-US
+style='font-size:10.0pt;font-family:ÌŽÍ¥'>: </span></b><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Maintain the BOSS to
 make it runs stably.</span></p>
 
@@ -653,11 +415,11 @@ lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>&nbsp;</sp
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-indent:-21.0pt;text-autospace:none'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Data
 process and manage system for chemical experiment of Chemical Engineer and
-Technology college of HFUT (Oct. 2009 ¨C Sep. 2010).</span></b></p>
+Technology college of HFUT (Oct. 2009 Éƒ Sep. 2010).</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><span lang=EN-US
@@ -684,7 +446,7 @@ curve fitting, chart graph and chemical knowledge to the system.</span></p>
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Achievement</span></b><b><span
-style='font-size:10.0pt;font-family:ËÎÌå'>£º</span></b><span lang=EN-US
+style='font-size:10.0pt;font-family:ÌŽÍ¥'>: </span></b><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Complement the
 system and apply it to serve students in May 2010.</span></p>
 
@@ -694,10 +456,10 @@ lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>&nbsp;</sp
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-indent:-21.0pt;text-autospace:none'><span
-lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>¡ì<span
+lang=EN-US style='font-size:10.0pt;font-family:Wingdings'>Â¬<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Design
-and program for mutual comment system (Oct. 2009 ¨C Nov. 2009).</span></b></p>
+and program for mutual comment system (Oct. 2009 Éƒ Nov. 2009).</span></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:21.0pt;text-autospace:none'><span lang=EN-US
@@ -712,7 +474,7 @@ according the design by PHP, JavaScript and SQL.</span></p>
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
 margin-bottom:2.0pt;margin-left:0cm;text-indent:21.0pt;text-autospace:none'><b><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Achievement</span></b><b><span
-style='font-size:10.0pt;font-family:ËÎÌå'>£º</span></b><span lang=EN-US
+style='font-size:10.0pt;font-family:ÌŽÍ¥'>: </span></b><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Complement the
 system and apply it to serve student in Nov. 2009.</span></p>
 
@@ -733,7 +495,7 @@ lang=EN-US style='font-family:"Calibri","sans-serif"'>. (</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Jul.</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> 200</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>7</span><span
-lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> ¨C </span><span
+lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> Éƒ </span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Aug.</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> 200</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>7)</span></p>
@@ -744,7 +506,7 @@ lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Help a
 middle school student as volunteer for one year. (Sep.</span><span lang=EN-US
 style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> 200</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>7</span><span
-lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> ¨C </span><span
+lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> Éƒ </span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Jul.</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'> 200</span><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>8)</span></p>
@@ -753,7 +515,7 @@ lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>8)</span><
 margin-bottom:2.0pt;margin-left:0cm;text-indent:21.0pt;text-autospace:none'><span
 lang=EN-US style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Organize
 a fellowship exchange activity with Anhui University</span><span lang=EN-US
-style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>. (Oct. 2009 ¨C Oct.
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>. (Oct. 2009 Éƒ Oct.
 2009)</span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
@@ -810,9 +572,3 @@ style='font-weight:normal'>200</span><span lang=EN-US style='font-weight:normal'
 
 <p class=CollegeDegree style='layout-grid-mode:char'><span lang=EN-US
 style='font-weight:normal'>&nbsp;</span></p>
-
-</div>
-
-</body>
-
-</html>
