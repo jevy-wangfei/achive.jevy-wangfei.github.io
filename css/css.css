@@ -55,6 +55,6 @@ blockquote .quote{color:#f9e6ae;display:table-cell;font:40px/20px Georgia;paddin
 
 
 img {
-	box-shadow: 0 0 12px rgba(255,255,255,0.15);
+	box-shadow: 0 0 12px rgba(0,0,0,0.2);
 	width: 100%;
 }
