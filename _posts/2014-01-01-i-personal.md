@@ -10,7 +10,7 @@ My name is Fei Wang. I graduated from Hefei University of Technology (one nation
 
 I am very interested in large scale data process and familiar with some excellent large-scale data process solutions such as hadoop and NoSQL. I want to make an in-deep research on it. In order to further improve my professional capabilities, I plan to go abroad for further study. 
 
-<img src="./img/post/me.jpg" />
+<img src="../img/me.jpg" />
 
 
 Please following the link to know me. <a href="../pdf/personal.pdf">Fei Wang's CV</a>
