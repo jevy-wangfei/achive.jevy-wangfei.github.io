@@ -13,5 +13,5 @@ I am very interested in large scale data process and familiar with some excellen
 <img src="./img/post/me.jpg" />
 
 
-Please following the link to know me. <a href="../pdf/personal.pdf">Fei Wang's CV</a>
+Please following the link to know me. <a href="./pdf/personal.pdf">Fei Wang's CV</a>
 
