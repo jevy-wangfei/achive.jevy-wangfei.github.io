@@ -5,15 +5,16 @@ category: timeline
 tags: personal
 quote: Applying for a Master Degree in Australian Universty.
 ---
-<br>FEI WANG
-<br>Hefei University of Technology, Hefei, Anhui, CHINA
+<p>
+<h1>FEI WANG</h1>
+Hefei University of Technology, Hefei, Anhui, CHINA
 <br>Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com
-<br>EDUCATION
-<br>BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010
+<h1>EDUCATION</h1>
+BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010
 <br>HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN
 <br> Key Courses: Microcomputer Principles and Applications, Advanced Mathematics, Probability Theory & Mathematical Statistics, Linear Algebra, C program, Engineering Mechanics, Engineering Drawing, Advanced Physics, Inorganic Chemistry, Organic Chemistry, Analytical Chemistry, Physical Chemistry, etc.
 <br> Average Score (GPA): 76%. 
-<br>
+
 <br>ENGLISH PROFICIENCY
 <br>TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20
 <br>
@@ -90,24 +91,24 @@ quote: Applying for a Master Degree in Australian Universty.
 <br>Configure the telecom tariff on BOSS according customers' requirements.
 <br>Manage the Unit Interface Platform (provide services such as recharge balance, inquire balance, service open/close, calling record check, bill check, etc.) which connects with many companies. 
 <br>Achievement：Maintain the BOSS to make it runs stably.
-<br>
+
 <br> Data process and manage system for chemical experiment of Chemical Engineer and Technology college of HFUT (Oct. 2009 -- Sep. 2010).
 <br>Design the data relation, data process/manage logical, display interface according students requirements.
 <br>Program the system according the design by Java, JavaScript, SQL and HTML.
 <br>Apply third-party jars to the system such as Struts2, Spring, Hibernate, JFreeChart.
 <br>Apply matrix math, curve fitting, chart graph and chemical knowledge to the system.
 <br>Achievement：Complement the system and apply it to serve students in May 2010.
-<br>
+
 <br> Design and program for mutual comment system (Oct. 2009 -- Nov. 2009).
 <br>Design the data relation and display interface based on browser and server structure. 
 <br>Program the system according the design by PHP, JavaScript and SQL.
 <br>Achievement：Complement the system and apply it to serve student in Nov. 2009.
-<br>
+
 <br>SOCIAL ACTIVITIES
 <br>Organize a summer social practice and made a survey about life situations of left-behind old people and children. (Jul. 2007 -- Aug. 2007)
 <br>Help a middle school student as volunteer for one year. (Sep. 2007 -- Jul. 2008)
 <br>Organize a fellowship exchange activity with Anhui University. (Oct. 2009 -- Oct. 2009)
-<br>
+
 <br>AWARDS (SELECTED)
 <br>National Computer Database Engineer certificate (Grade Four), awarded in HFUT	Sep. 2009
 <br>National Computer Java Language certificate (Grade Two), awarded in HFUT	Sep. 2008
@@ -118,5 +119,5 @@ quote: Applying for a Master Degree in Australian Universty.
 <br>Outstanding Undergraduate Scholarship, awarded in HFUT	Oct. 2007
 <br>Outstanding Member Award, awarded in HFUT	Oct. 2007
 <br>
-<br>
-<br>
+
+</p>
