@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Curriculum Vitae
+title: CV
 category: timeline
 tags: personal
-quote: Personal State: Applying Master Degree in Australian Universty.
+quote: Personal State, Applying Master Degree in Australian Universty.
 ---
 
 My name is Fei Wang. I graduated from Hefei University of Technology (one national key university of China) in 2010. In the past three years, I worked in the global technology service department of ZTE co., LTD. 
