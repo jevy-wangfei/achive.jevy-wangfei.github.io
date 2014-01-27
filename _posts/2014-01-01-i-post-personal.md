@@ -6,13 +6,12 @@ tags: personal
 quote: Applying for a Master Degree in Australian Universty.
 ---
 <h1>FEI WANG</h1>
-<br />
+<p>
 Hefei University of Technology, Hefei, Anhui, CHINA
 <br />
 Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com
 <br />
 <h1>EDUCATION</h1>
-<br />
 BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010
 <br />
 HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN
@@ -22,8 +21,7 @@ HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN
  Average Score (GPA): 76%. 
 <br />
 
-<br />
 <h1>ENGLISH PROFICIENCY</h1>
-<br />
 TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20
 <br />
+</p>
