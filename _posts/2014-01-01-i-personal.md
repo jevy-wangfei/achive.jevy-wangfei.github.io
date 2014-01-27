@@ -5,7 +5,7 @@ category: timeline
 tags: personal
 quote: Applying for a Master Degree in Australian Universty.
 ---
-<p>
+
 FEI WANG
 Hefei University of Technology, Hefei, Anhui, CHINA
 Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com
@@ -119,4 +119,4 @@ Outstanding Social Practice Award, awarded in HFUT	Oct. 2008
 Outstanding Undergraduate Scholarship, awarded in HFUT	Oct. 2007
 Outstanding Member Award, awarded in HFUT	Oct. 2007
 
-</p>
+
