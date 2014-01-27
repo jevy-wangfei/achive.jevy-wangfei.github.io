@@ -30,16 +30,9 @@ title: Jevy's Blog
 					    </div>
 					{% endif %}
 				{% endfor %}
-	<div class="post_timeline personal">
-		<div class="timeline_meta"><time>JANUARY<br/><small>2014</small></time>
-		</div>
-		<div class="timeline_body">{% include personal.html %}<hr/>
-		</div>
-	</div>
-		
+
 	
 </div>
-
 <div id="footer">
 {% include footer.html %}
 </div>
