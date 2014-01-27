@@ -6,27 +6,41 @@ tags: personal
 quote: Applying for a Master Degree in Australian Universty.
 ---
 <p>
-FEI WANG <br />
-Hefei University of Technology, Hefei, Anhui, CHINA<br />
-Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com<br />
-EDUCATION<br />
-BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010<br /><br />
-HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN<br />
- Key Courses: Microcomputer Principles and Applications, Advanced Mathematics, Probability Theory & Mathematical<br /> Statistics, Linear Algebra, C program, Engineering Mechanics, Engineering Drawing, Advanced Physics, Inorganic Chemistry, Organic Chemistry, Analytical Chemistry, Physical Chemistry, etc.<br />
- Average Score (GPA): 76%. <br />
+FEI WANG
 
-ENGLISH PROFICIENCY<br />
-TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20<br />
+Hefei University of Technology, Hefei, Anhui, CHINA
 
-WORK EXPERIENCE (Jul. 2010 -- Apr. 2013)<br />
-Project Manager in International Customer Service Department (Working overseas, Full-Time)<br />
-ZETSoft Co., Ltd. -- Nanjing, Jiangsu, P. R. China. (Jul. 2010 -- Apr. 2013)<br />
-Implement BOSS system (Business Operate and Service Support System for Telephone Company) by advance technology about<br /> AIX, Linux, Oracle, PL/SQL, JAVA, Python and Shell.<br />
-Configure business on BOSS system following customers requirements.<br />
-Migrate subscribers' data and services from old system to BOSS.<br />
-Coordinate human resources, budget resources and work schedule to complete project smoothly.<br />
-Maintain business services to satisfy customers and win Project Acceptance Certification (PAC).<br />
-Achievement: Get a Project Manage Position through two years carefully and patiently working. Hard and Creative work is approved by the supervisor of my department.<br />
+Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com
+
+EDUCATION
+
+BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010
+HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN
+
+ Key Courses: Microcomputer Principles and Applications, Advanced Mathematics, Probability Theory & Mathematical Statistics, Linear Algebra, C program, Engineering Mechanics, Engineering Drawing, Advanced Physics, Inorganic Chemistry, Organic Chemistry, Analytical Chemistry, Physical Chemistry, etc.
+ 
+ Average Score (GPA): 76%. 
+
+ENGLISH PROFICIENCY
+
+TOEFL: overall 83, Reading: 23, Listening: 20, Speaking: 20, Writing: 20
+
+WORK EXPERIENCE (Jul. 2010 -- Apr. 2013)
+
+Project Manager in International Customer Service Department (Working overseas, Full-Time)
+ZETSoft Co., Ltd. -- Nanjing, Jiangsu, P. R. China. (Jul. 2010 -- Apr. 2013)
+
+Implement BOSS system (Business Operate and Service Support System for Telephone Company) by advance technology about<br /> AIX, Linux, Oracle, PL/SQL, JAVA, Python and Shell.
+
+Configure business on BOSS system following customers requirements.
+
+Migrate subscribers' data and services from old system to BOSS.
+
+Coordinate human resources, budget resources and work schedule to complete project smoothly.
+
+Maintain business services to satisfy customers and win Project Acceptance Certification (PAC).
+
+Achievement: Get a Project Manage Position through two years carefully and patiently working. Hard and Creative work is approved by the supervisor of my department.
 
 Assistant in College of Chemical Engineering and Technology (Part-Time)
 HFUT -- Hefei, Anhui, P. R. China. (Sep. 2006 -- Jun. 2010)
