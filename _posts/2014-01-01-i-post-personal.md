@@ -8,7 +8,7 @@ quote: Applying for a Master Degree in Australian Universty.
 <h1>FEI WANG</h1>
 Hefei University of Technology, Hefei, Anhui, CHINA
 <br>Phone: 0086 13093458195 Email: jevy.wangfei@gmail.com
-<br>EDUCATION</h1>
+<h2>EDUCATION</h2>
 <br>BACHELOR OF ENGINEERING IN CHEMICAL ENGINEERING AND TECHNOLOGY (BECET), SEP. 2006 -- JUN.2010
 <br>HEFEI UNIVERSITY OF TECHNOLOGY (HFUT) -- HEFEI, ANHUI, CN
 <br> Key Courses: Microcomputer Principles and Applications, Advanced Mathematics, Probability Theory & Mathematical Statistics, Linear Algebra, C program, Engineering Mechanics, Engineering Drawing, Advanced Physics, Inorganic Chemistry, Organic Chemistry, Analytical Chemistry, Physical Chemistry, etc.
@@ -68,13 +68,13 @@ Promote the project forward to win PAC as a project manager.
 <br>Make project schedule, coordinate resources and forces to keep pace with the project schedule. 
 <br>Write numerous PL/SQL procedures and partition scripts to handle the innumerable Calling Detail Record on oracle database - billions per month.
 <br>Cooperation with customers, engineers (Pakistan) and designers (China) to solve enquires.
-<br>Achievement: Finish the project within six month and gain PAC. The well done job highly respected by customer and the header of my department. 
+<br>Achievement:Finish the project within six month and gain PAC. The well done job highly respected by customer and the header of my department. 
 <br>
 <h2>Myanmar Operation and Develop (MOD) project (Mar. 2012 -- Jun. 2012).</h2>
 Promote the project forward for commercial lunch as a project manager.
 <br>Design customized report for business data statistic.
 <br>Optimize the BOSS system to satisfy customer.
-<br>Achievement: Acquire Project Acceptance Check (PAC).
+<br>Achievement:Acquire Project Acceptance Check (PAC).
 <br>
 <h2>Myanmar Postal and Telephone (MPT) project (Feb. 2011 -- Mar. 2012). </h2>
 Implement BOSS system by skilled knowledge such as AIX, Linux, Oracle, Times Ten, Java, PL/SQL, Shell, and Python.
@@ -84,24 +84,24 @@ Implement BOSS system by skilled knowledge such as AIX, Linux, Oracle, Times Ten
 <br>Migrate subscribers' data and services from old system to BOSS (from Sybase to Oracle and Times Ten).
 <br>Analyze hug Calling Records by writing procedures on oracle database.
 <br>Train staffs of MPT to maintain the BOSS system.
-<br>Achievement: Lunch the project in commerce, migrate million customers' data to the BOSS system.
+<br>Achievement:Lunch the project in commerce, migrate million customers' data to the BOSS system.
 <br>
 <h2>Vietnam veittel project (Sep. 2010 -- Jan. 2011).</h2>
 Configure the telecom tariff on BOSS according customers' requirements.
 <br>Manage the Unit Interface Platform (provide services such as recharge balance, inquire balance, service open/close, calling record check, bill check, etc.) which connects with many companies. 
-<br>Achievement：Maintain the BOSS to make it runs stably.
+<br>Achievement:Maintain the BOSS to make it runs stably.
 <br>
 <h2>Data process and manage system for chemical experiment of Chemical Engineer and Technology college of HFUT (Oct. 2009 -- Sep. 2010).</h2>
 <br>Design the data relation, data process/manage logical, display interface according students requirements.
 <br>Program the system according the design by Java, JavaScript, SQL and HTML.
 <br>Apply third-party jars to the system such as Struts2, Spring, Hibernate, JFreeChart.
 <br>Apply matrix math, curve fitting, chart graph and chemical knowledge to the system.
-<br>Achievement：Complement the system and apply it to serve students in May 2010.
+<br>Achievemen:Complement the system and apply it to serve students in May 2010.
 <br>
 <h2>Design and program for mutual comment system (Oct. 2009 -- Nov. 2009).</h2>
 <br>Design the data relation and display interface based on browser and server structure. 
 <br>Program the system according the design by PHP, JavaScript and SQL.
-<br>Achievement：Complement the system and apply it to serve student in Nov. 2009.
+<br>Achievemen:Complement the system and apply it to serve student in Nov. 2009.
 <br>
 <h1>SOCIAL ACTIVITIES</h1>
 Organize a summer social practice and made a survey about life situations of left-behind old people and children. (Jul. 2007 -- Aug. 2007)
