@@ -7,7 +7,7 @@ body{margin:0; color:#fbfcf1;font-family:Georgia,Times,Times New Roman}
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
 #menu{float:right; margin-top:-20px; margin-right: 100px;}
-#menu li {padding:5px,5px,5px; float:true; float: left;}
+#menu li {margin:5px; float:true; float: left;}
 
 #timeline {clear:both; padding-left:260px; padding-right:260px; }
 
