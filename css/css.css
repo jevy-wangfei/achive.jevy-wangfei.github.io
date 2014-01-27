@@ -12,10 +12,10 @@ body{margin:0; color:#fbfcf1;font-family:Georgia,Times,Times New Roman}
 #timeline {clear:both; padding-left:260px; padding-right:260px; }
 
 
-.timeline__meta{ float:left;padding-top:20px;margin:0;text-align:right; width:120px;}
-.timeline__meta time{font-style:italic;font-size:16px; color: rgb(255,255,255); padding:0 6px 3px;text-transform:uppercase;}
-.timeline__meta time small{font-size:inherit;margin-left:6px; color: rgb(255,255,255); padding-right: 6px;}
-.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(80,80,80,0.4);}
+.timeline__meta{color: white; float:left;padding-top:20px;margin:0;text-align:right; width:120px;}
+.timeline__meta time{font-style:italic;font-size:16px;  padding:0 6px 3px;text-transform:uppercase;}
+.timeline__meta time small{font-size:inherit;margin-left:6px;  padding-right: 6px;}
+.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(255,255,255,0.4);}
 .timeline__body img{margin-top:18px;}
 
 
