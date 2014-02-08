@@ -1,0 +1,9 @@
+---
+layout: default
+title: Play with kids
+category: timeline
+tags: picture
+quote: I get marriage today (Feb. 10, 2014). <br /> A new life style is starting.
+---
+<img src="./img/post/marriage.jpg"  alt="Down by the beach"/>
+

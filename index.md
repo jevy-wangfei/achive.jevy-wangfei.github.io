@@ -25,7 +25,7 @@ title: Jevy's Blog
 								{% else %}
 									{{ post.content }}
 								{% endif %}
-							    <hr>
+							    
 							</div>
 					    </div>
 					{% endif %}
