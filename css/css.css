@@ -1,5 +1,5 @@
 html{background-color:#808080; background: url(../img/bk5.jpg) no-repeat center fixed;}
-body{margin:0; color:#00CDCD;font-family:Georgia,Times,Times New Roman}
+body{margin:0; color:#31BDDF;font-family:Georgia,Times,Times New Roman}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray;}
 #name{height:50; font-size:24px; margin-left: 50px; }
@@ -13,7 +13,7 @@ body{margin:0; color:#00CDCD;font-family:Georgia,Times,Times New Roman}
 .timeline__meta{float:left;padding-top:20px;margin:0;text-align:right; width:120px;}
 .timeline__meta time{font-style:italic;font-size:16px;  padding:0 6px 3px;text-transform:uppercase;}
 .timeline__meta time small{font-size:inherit;margin-left:6px;  padding-right: 6px;}
-.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(BA,BA,BA,0.1);}
+.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(8A,8A,8A,0.2);}
 .timeline__body img{margin-top:18px;}
 
 
