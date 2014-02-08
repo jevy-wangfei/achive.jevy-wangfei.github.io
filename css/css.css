@@ -1,7 +1,7 @@
 html{background-color:#808080; background: url(../img/bk5.jpg) no-repeat center fixed;}
 body{margin:0; color:#31BDDF;font-family:Georgia,Times,Times New Roman}
 
-#header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray;}
+#header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; position: fixed;}
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
 #menu{float:right; margin-top:-20px; margin-right: 100px;}
