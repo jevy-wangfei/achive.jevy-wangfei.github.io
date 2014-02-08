@@ -8,8 +8,8 @@ title: Jevy's Blog
 <div id="timeline">
 <div id="aboutme">
 <h1>Wang Fei</h1>
-<p>I am interested in large-scale data process and programing. After working in ZTESoft for three years,
-I decided to go to ANU for further study. </p>
+<h2>I am interested in large-scale data process and programing. After working in ZTESoft for three years,
+I decided to go to ANU for further study. </h2>
 </div>
 				{% for post in site.posts %}
 					{% if post.category == 'timeline' %}

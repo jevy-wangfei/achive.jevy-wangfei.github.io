@@ -6,14 +6,14 @@ body{margin:0; color:#5CACEE;font-family:Georgia,Times,Times New Roman}
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
 #menu{float:right; margin-top:-20px; margin-right: 100px;}
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none;}
-#aboutme {margin-top:800px; padding-top:200px; }
+#aboutme {margin-top:500px; padding-top:80px; }
 #timeline {clear:both; padding-left:260px; padding-right:260px; }
 
 
 .timeline__meta{float:left;padding-top:20px;margin:0;text-align:right; width:120px;}
 .timeline__meta time{font-style:italic;font-size:16px;  padding:0 6px 3px;text-transform:uppercase;}
 .timeline__meta time small{font-size:inherit;margin-left:6px;  padding-right: 6px;}
-.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(255,255,255,0.4);}
+.timeline__body {imgfloat:left; padding-left:150px; padding-top:10px; padding-right:10px;position:relative;top:-2px;width:580px; margin-top:18px; background-color:rgba(0,0,0,0.2);}
 .timeline__body img{margin-top:18px;}
 
 
@@ -45,7 +45,7 @@ blockquote{margin:1em 40px}
 dfn{font-style:italic}
 hr{background-color:rgba(255,255,255,0.4);border:0;border-top:1px solid rgba(0,0,0,0.2);height:1px;margin:36px 0}
 small{font-size:80%}
-blockquote{border-left:5px solid rgba(255,255,255,0.7);background-color:rgba(255,255,255,0.5);display:table;margin:18px 0;padding:12px}
+blockquote{border-left:5px solid rgba(255,255,255,0.3);background-color:rgba(255,255,255,0.2);display:table;margin:18px 0;padding:12px}
 blockquote:before,blockquote:after{content:"";display:table}
 blockquote:after{clear:both}
 blockquote p{font-style:italic;float:right;margin:0}
