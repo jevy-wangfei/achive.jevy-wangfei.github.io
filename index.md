@@ -6,6 +6,15 @@ title: Jevy's Blog
 {% include header.html %}
 </div>
 <div id="timeline">
+<br />
+<br /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 				{% for post in site.posts %}
 					{% if post.category == 'timeline' %}
 					    <div class="post__timeline {{ post.tags | join:' ' }}">

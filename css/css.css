@@ -1,5 +1,5 @@
 html{background-color:#808080; background: url(../img/bk5.jpg) no-repeat center fixed;}
-body{margin:0; color:rgb(255,255,255);font-family:Georgia,Times,Times New Roman}
+body{margin:0; color:#31BDDF;font-family:Georgia,Times,Times New Roman}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray;}
 #name{height:50; font-size:24px; margin-left: 50px; }
