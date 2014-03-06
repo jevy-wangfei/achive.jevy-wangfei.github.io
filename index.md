@@ -2,15 +2,20 @@
 layout: default
 title: Jevy's Blog
 ---
-<div id="header">
-{% include header.html %}
+<div id="timeline" >
+<div id="menu">
+<li><a href="#" id="personal">Personal</a></li>
+<li><a href="#" id="article">Article</a></li>
+<li><a href="#" id="picture">Picture</a></li>
+<li><a href="#" id="design">Design</a></li>
+<li><a href="#" id="all" class="live">All</a></li>
 </div>
-<div id="timeline">
 <div id="aboutme">
 <h1>Wang Fei</h1>
-<h2>I am interested in large-scale data process and programing. After working in ZTESoft for three years,
-I decided to go to ANU for further study. </h2>
+<p> am interested in large-scale data process and programing. After working in ZTESoft for three years,
+I decided to go to ANU for further study. </p>
 </div>
+
 				{% for post in site.posts %}
 					{% if post.category == 'timeline' %}
 					    <div class="post__timeline {{ post.tags | join:' ' }}">
