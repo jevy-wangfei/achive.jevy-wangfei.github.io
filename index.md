@@ -12,7 +12,7 @@ title: Jevy's Blog
 </div>
 <div id="aboutme">
 <h1>Wang Fei</h1>
-<p> am interested in large-scale data process and programing. After working in ZTESoft for three years,
+<p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
 I decided to go to ANU for further study. </p>
 </div>
 
