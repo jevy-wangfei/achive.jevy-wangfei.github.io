@@ -1,4 +1,4 @@
-html{background-color:#808080; background: url(../img/xtUMLBackground.png.jpg) no-repeat center fixed;}
+html{background-color:#808080; background: url(../img/xtUMLBackground.jpg) no-repeat center fixed;}
 body{margin:0; color:#044858;font-family:Georgia,Times,Times New Roman}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
@@ -17,7 +17,7 @@ position: fixed;}
 .timeline__meta{float:left; margin-top:18px;padding-top:20px;margin:0;text-align:right; width:120px;}
 .timeline__meta time{font-style:italic;font-size:16px;  padding:0 6px 3px;text-transform:uppercase;}
 .timeline__meta time small{font-size:inherit;margin-left:6px;  padding-right: 6px;}
-.timeline__body {imgfloat:left; margin-top:18px; padding-left:150px; padding-top:10px; padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:750px;  background-color:rgba(80,80,80,0.4);}
+.timeline__body {imgfloat:left; margin-top:18px; padding-left:150px; padding-top:10px; padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:750px;  background-color:rgba(255,255,255,0.3);}
 .timeline__body img{margin-top:18px;}
 
 
@@ -45,12 +45,12 @@ blockquote{margin:1em 40px}
 dfn{font-style:italic}
 hr{background-color:rgba(255,255,255,0.4);border:0;border-top:1px solid rgba(0,0,0,0.2);height:1px;margin:36px 0}
 small{font-size:80%}
-blockquote{border-left:5px solid rgba(255,255,255,0.4);background-color:rgba(255,255,255,0.3);display:table;margin:18px 0;padding:12px}
+blockquote{border-left:5px solid rgba(255,255,255,0.5);background-color:rgba(255,255,255,0.4);display:table;margin:18px 0;padding:12px}
 blockquote:before,blockquote:after{content:"";display:table}
 blockquote:after{clear:both}
 blockquote p{font-style:italic;float:right;margin:0;font-size:20px}
 blockquote .quote{color:#f9e6ae;display:table-cell;font:40px/20px Georgia;padding:12px 12px 0 0;vertical-align:top}
-
+aboutme {background-color:rgba(255,255,255,0.4)}
 
 img {
 	box-shadow: 0 0 12px rgba(0,0,0,0.5);
