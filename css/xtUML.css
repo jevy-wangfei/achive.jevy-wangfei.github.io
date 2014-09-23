@@ -1,4 +1,4 @@
-html{background-color:#808080; background: url(../img/bk2.jpg) no-repeat center fixed;}
+html{background-color:#808080; background: url(../img/xtUMLBackground.png) no-repeat center fixed;}
 body{margin:0; color:#31BDDF;font-family:Georgia,Times,Times New Roman}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
@@ -9,7 +9,7 @@ z-index: 100;
 overflow: visible;
 position: fixed;}
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
-#timeline {clear:both; width:740px; margin-left: auto; margin-right: auto;}
+#timeline {clear:both; width:900px; margin-left: auto; margin-right: auto;}
 #aboutme { padding-top:400px; padding-bottom:50px;}
 
 
