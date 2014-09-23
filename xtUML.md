@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: xtUML
 title: xtUML Portfolio
 ---
 <div id="timeline" >
