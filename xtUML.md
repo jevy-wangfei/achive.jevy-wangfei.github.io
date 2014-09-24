@@ -16,7 +16,7 @@ title: xtUML Portfolio
 I decided to go to ANU for further study. </p>
 </div>
 
-				{% for post in site.xtuml %}
+				{% for post in site.post.xtuml %}
 					{% if post.category == 'timeline' %}
 					    <div class="post__timeline {{ post.tags | join:' ' }}">
 					    	<div class="timeline__meta">
