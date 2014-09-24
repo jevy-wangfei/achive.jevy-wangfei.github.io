@@ -4,9 +4,9 @@ title: xtUML Portfolio
 ---
 <div id="timeline" >
 <div id="menu">
-<li><a href="#" id="personal">Personal</a></li>
-<li><a href="#" id="article">Article</a></li>
-<li><a href="#" id="picture">Picture</a></li>
+<li><a href="#" id="personal">Description</a></li>
+<li><a href="#" id="article">Class</a></li>
+<li><a href="#" id="picture">State</a></li>
 <li><a href="#" id="design">Design</a></li>
 <li><a href="#" id="all" class="live">All</a></li>
 </div>
