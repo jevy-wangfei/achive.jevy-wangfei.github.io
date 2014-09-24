@@ -7,7 +7,7 @@ title: xtUML Portfolio
 <li><a href="#" id="personal">Description</a></li>
 <li><a href="#" id="article">Class</a></li>
 <li><a href="#" id="picture">State</a></li>
-<li><a href="#" id="design">Design</a></li>
+<li><a href="#" id="design">Process</a></li>
 <li><a href="#" id="all" class="live">All</a></li>
 </div>
 <div id="aboutme">
