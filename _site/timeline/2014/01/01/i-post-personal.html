@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>My name is Fei Wang. I graduated from Hefei University of Technology (one national key university of China) in 2010. In the past three years, I worked in the global technology service department of ZTE co., LTD. </p>
+
+<p>I am very interested in large scale data process and familiar with some excellent large-scale data process solutions such as hadoop and NoSQL. I want to make an in-deep research on it. In order to further improve my professional capabilities, I plan to go abroad for further study. </p>
+
+<p>Please following the link to know me. <a href="./pdf/personal.pdf">Fei Wang’s CV</a>
+<img src="../img/me.jpg" /></p>
+
+
+	
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+	
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+		
+    </script>
+　　</html>

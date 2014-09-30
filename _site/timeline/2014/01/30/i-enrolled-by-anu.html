@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>
+I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. Happy Spring Day. Happy ending of 2013. Good start of 2014.
+<img src="../img/post/anu_logo.jpg" />
+</p>
+
+
+	
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+	
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+		
+    </script>
+　　</html>
