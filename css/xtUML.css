@@ -1,11 +1,11 @@
 html{background-color:#808080; background: url(../img/xtUMLBackground1250.jpg) no-repeat center fixed;}
-body{margin:0; color:#FFFFFF;font-family:Calibri,Arial,Verdana;line-height:150%;}
+body{margin:0; color:#eaeaea;font-family:Calibri,Arial,Verdana;line-height:150%; font-size:18px;}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
-#menu{ margin-top:-20px; font-size:18px; display: block; float:left;
-background-color:rgba(255,255,255,0.9);
+#menu{ margin-top:-30px; font-size:18px; display: block; float:left;
+background:url(../img/xtUML/menuBackground.jpg);
 z-index: 100;
 clear:both;
 overflow: visible;
@@ -15,15 +15,17 @@ width:840px;
 
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
 #timeline {clear:both; width:840px; margin-left: auto; margin-right: auto;}
-#aboutme { padding-top:100px; padding-bottom:50px;}
+#aboutme { padding-top:50px; padding-bottom:10px;}
 
 
 
 .timeline__meta{float:left; margin-top:18px;padding-top:20px;margin:0;text-align:right; width:120px;}
 .timeline__meta time{font-style:italic;font-size:16px;  padding:0 6px 3px;text-transform:uppercase;}
 .timeline__meta time small{font-size:inherit;margin-left:6px;  padding-right: 6px;}
-.timeline__body {imgfloat:left; margin-top:18px; padding-left:150px; padding-top:10px; padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:680px;  background-color:rgba(255,255,255,0.3);}
-.timeline__body img{margin-top:18px; align:center; width:600px; }
+.timeline__body {imgfloat:left; margin-top:18px; padding-left:150px; padding-top:10px; 
+padding-bottom:10px; padding-right:10px;position:relative;top:-2px;width:680px;  
+background-color:rgba(255,255,255,0.3);}
+.timeline__body img{margin-top:5px; margin-bottom:10px;align:center; width:680px; }
 
 
 
@@ -46,7 +48,8 @@ a img,a:link img,a:visited img{border:0;display:block;}
 .live{color:#FFA722}
 h1 {font-size:24pt}
 h2{font-size:16pt}
-b,strong{font-weight:bold}
+b{font-weight:normal;font-size:12px; font-style:italic}
+strong {font-weight:bold;font-size:20px; padding-top:20px;}
 blockquote{margin:1em 40px}
 dfn{font-style:italic}
 hr{background-color:rgba(255,255,255,0.4);border:0;border-top:1px solid rgba(0,0,0,0.2);height:1px;margin:36px 0}
