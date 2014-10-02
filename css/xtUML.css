@@ -1,14 +1,14 @@
 html{background-color:#808080; background: url(../img/xtUMLBackground1250.jpg) no-repeat center fixed;}
-body{margin:0; color:#FFFFFF;font-family:Calibri,Arial,Verdana； line-height:150%;}
+body{margin:0; color:#FFFFFF;font-family:Calibri,Arial,Verdana;line-height:150%;}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
-#menu{float:right; margin-top:-15px; font:bord; font-size:18px; display: block;
+#menu{float:right; margin-top:-15px; font:bord; font-size:18px; display: block;background-color:rgba(255,255,255,0.8);
 z-index: 100;
 overflow: visible;
 position: fixed;}
-#menu li {margin:5px 10px 5px 10px; float: left; list-style:none; background-color:rgba(255,255,255,0.8);}
+#menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
 #timeline {clear:both; width:840px; margin-left: auto; margin-right: auto;}
 #aboutme { padding-top:400px; padding-bottom:50px;}
 
