@@ -6,6 +6,7 @@ body{margin:0; color:#FFFFFF;font-family:Calibri,Arial,Verdana;line-height:150%;
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
 #menu{float:right; margin-top:-15px; font:bord; font-size:18px; display: block;background-color:rgba(255,255,255,0.8);
 z-index: 100;
+clear:both;
 overflow: visible;
 position: fixed;}
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
