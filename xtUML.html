@@ -10,11 +10,12 @@
 
 　　　　<div id="timeline">
 <div id="menu">
+<li><a href="#" id="all" class="live">All</a></li>
 <li><a href="#" id="personal">Portfolio Introduction</a></li>
 <li><a href="#" id="article">Chemical Production Introduction</a></li>
 <li><a href="#" id="picture">Domains Classes and State Machine</a></li>
 <li><a href="#" id="design">Study Note</a></li>
-<li><a href="#" id="all" class="live">All</a></li>
+
 </div>
 <div id="aboutme">
 <h1>Wang Fei </h1>
@@ -40,14 +41,15 @@
 									
 									<p>
 									After learning Model Driven Software Development, I strongly believe it could be used in chemical industry software development considering its following characters. 
-</br>
+<br/>
 In the first place, the materials in chemical processing are inflammable, explosive, poisonous and harmful. All of the operations in chemical factories are based on chemical production software. However, staffs in chemical factory always feel confuse bout  operating software system considering their background. They could understand the chemical process diagram very well (Show as diagram 1.1). And they have the knowledge about what may happen if temperature or pressure increase/decrease at a workshop section. As software engineers, if we develop a software for a chemical factory, how can we communicate technology details with them? How can we make them understanding software design?  I think the class diagrams are the best tool to communicate software work flow and chemical process flow with chemical engineers. Classes in xtUML are an abstraction of identified real entities, such as a control point in chemical factory. 
+<br/>
 <img src="./img/xtUML/ChemicalFlow.jpg" alt="In libary " /></p>
-</br>
+<br/>
 
 Second, the operating conditions in chemical processing are high temperature, high pressure, continuous production and technology complex. And there are many uncertain risk factors which may cause accidents. So, the chemical production software is extremely complex. For example, there are thousands control points in a chemical workshop section.  All of the control points must be under control of the software, or else, dangerous events will be happened.  In traditional way, chemical software structure likes the diagram 1.2. Data collectors collect control points' data and write them to database. Control center reads data from database, analyses them and shows system state on user interface.  That is all of the system states are hysteretic. It can't  response to emergency event as quick as possible. What's more, software development, which is extremely complex, is facing data on database. The meaning of data understanding and careless mistakes will be a challenge for programs. Comparing with the traditional way, system designing and development in executable UML will be very intuitive considering all of the equipment and control points could be abstracted as domains and classes.  The complexity of the large-scale on time interactive chemical system will be simplified by calling external actions between different domains. And  a state machine clearly shows the activities of a control point.
 <img src="./img/post/.jpg" alt="In libary " /></p>
-</br>
+<br/>
 In addition, with the development of chemical industry, a large-scale production system usually only requires a few people to manage the factory. Unlike other software, any mistake operation on the chemical software will case dangerous events. For example, some of accidents which lead to human and property losses are caused by wrong operation or un-reaching monitor.  As a result, the staffs' operation skill training becomes increasingly important. What's more, with the production facility runs steadily for a long period of time, workers' ability of processing emergency event will be wan.  Regular training is essential for those employees. So, chemial process simulation software must be provided by chemical production software provider. In executable UML, domain and interface can solve the issues very vell. Interfaces between abstracted entities and real entities clearly define the border of software and real equipment.  Because of this character, components of software and hardware can be implemented individually in different domains. More than that, hardware could be imitated by software. It will be very helpful for the system mimetic. With the advantage of domain and interface, the production mode and training mode switch could be done easily and flexibly. And chemical reaction thermodynamics simulation could be done individually to satisfy simulation requirement. 
 									
 									
@@ -75,18 +77,20 @@ In this portfolio, I will take the atmospheric oil distillation of atmospheric-v
 </br>        
 In this demonstration, I only pay attention to atmosphere oil distillation tower (green color on the picture above, C-102).
 After Electric desalting and forerunning, the oil was heated (F101)  to 235 degree and pumped into atmosphere oil distillation tower. Due to different physical boiling points, different components in the hot oil will automatically fractionation in the atmospheric tower. So, the temperature of different place within the distillation tower need to be controlled very precisely. 
-Oil trap on top (52) will collect gasoline, 
-oil trap 38 will collect kerosene, 
-oil trap 26 will collect diesel oil, 
-and oil trap 14 will collect wax oil. 
+<li>Oil trap on top (52) will collect gasoline, </li>
+<li>oil trap 38 will collect kerosene, </li>
+<li>oil trap 26 will collect diesel oil, </li>
+<li>and oil trap 14 will collect wax oil. </li>
 The pink tower (C-103) is rectification tower, where kerosene, diesel oil and wax oil will be rectified to produce high purity kerosene, diesel oil and wax oil. 
 Pumps P-109, P-110 and P-111 are work as temperature controller by pumping hot oil from tower C-103, energy exchanging and then pumping cold oil into tower C103.  
-P-109 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 93 degree. 
-P-110 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 153 degree. 
-P-111 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 207 degree. 
+<li>P-109 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 93 degree. </li>
+<li>P-110 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 153 degree. </li>
+<li>P-111 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 207 degree. </li>
 Pump P-105 and P-110  also pump gasoline from 15th floor plate of tower C101 and top gasoline of tower C102 to balance the pressure of tower C102.  
 Pumps of P106, P107 and P108 remove related rectified oil from tower C103. 
+<br/>
 Besides pumps, there are temperature monitors TM4, TM14, TM22, TM25, TM34,TM 38, TM50 and TM52 etc. to monitor the temperature of their place. There are material flowing speed monitor SM101, SM105,SM109,SM110 and SM111 etc. to monitor material flow speed of their place. 	
+<br/>
 						<img src="./img/xtUML/ChemicalFlow.jpg" alt="Chemical Flow" /></p>
 								
 							    
