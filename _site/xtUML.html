@@ -10,25 +10,25 @@
 
 　　　　<div id="timeline">
 <div id="menu">
-<li><a href="#" id="personal">Personal</a></li>
-<li><a href="#" id="article">Article</a></li>
-<li><a href="#" id="picture">Picture</a></li>
-<li><a href="#" id="design">Design</a></li>
 <li><a href="#" id="all" class="live">All</a></li>
+<li><a href="#" id="personal">Portfolio Introduction</a></li>
+<li><a href="#" id="article">Chemical Introduction</a></li>
+<li><a href="#" id="picture">Modelling</a></li>
+<li><a href="#" id="design">Study Note</a></li>
+
 </div>
 <div id="aboutme">
-<h1>Wang Fei</h1>
-<p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
-I decided to go to ANU for further study. </p>
+<h1>Wang Fei </h1>
+<p>(u5575182)</p>
 
 </div>
 
 				
 					
-					    <div class="post__timeline personal picture">
+					    <div class="post__timeline personal">
 					    	<div class="timeline__meta">
-								<time datetime="2014-07-21 00:00:00 +0000">
-									July<br /><small>2014</small>
+								<time datetime="Portfolio Introduction">
+									Portfolio Introduction<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -36,21 +36,33 @@ I decided to go to ANU for further study. </p>
 									
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>I begin my study at ANU. ANU is a great university.</p>
+										<p>This chapter introduce why I am interested in applying xtUML to chemical industry software.</p>
 									</blockquote>
-									<p><img src="./img/post/study_at_anu.jpg" alt="In libary " /></p>
+									
+									<p>
+									After learning Model Driven Software Development, I strongly believe it could be used in chemical industry software development considering its following characters. 
+<br/>
+In the first place, the materials in chemical processing are inflammable, explosive, poisonous and harmful. All of the operations in chemical factories are based on chemical production software. However, staffs in chemical factory always feel confuse bout  operating software system considering their background. They could understand the chemical process diagram very well (Show as diagram 1.1). And they have the knowledge about what may happen if temperature or pressure increase/decrease at a workshop section. As software engineers, if we develop a software for a chemical factory, how can we communicate technology details with them? How can we make them understanding software design?  I think the class diagrams are the best tool to communicate software work flow and chemical process flow with chemical engineers. Classes in xtUML are an abstraction of identified real entities, such as a control point in chemical factory. 
+<br/>
+<img src="./img/xtUML/ChemicalFlow.jpg" alt="In libary " /></p>
+<br/>
 
-								
-							    
+Second, the operating conditions in chemical processing are high temperature, high pressure, continuous production and technology complex. And there are many uncertain risk factors which may cause accidents. So, the chemical production software is extremely complex. For example, there are thousands control points in a chemical workshop section.  All of the control points must be under control of the software, or else, dangerous events will be happened.  In traditional way, chemical software structure likes the diagram 1.2. Data collectors collect control points' data and write them to database. Control center reads data from database, analyses them and shows system state on user interface.  That is all of the system states are hysteretic. It can't  response to emergency event as quick as possible. What's more, software development, which is extremely complex, is facing data on database. The meaning of data understanding and careless mistakes will be a challenge for programs. Comparing with the traditional way, system designing and development in executable UML will be very intuitive considering all of the equipment and control points could be abstracted as domains and classes.  The complexity of the large-scale on time interactive chemical system will be simplified by calling external actions between different domains. And  a state machine clearly shows the activities of a control point.
+<img src="./img/post/.jpg" alt="In libary " /></p>
+<br/>
+In addition, with the development of chemical industry, a large-scale production system usually only requires a few people to manage the factory. Unlike other software, any mistake operation on the chemical software will case dangerous events. For example, some of accidents which lead to human and property losses are caused by wrong operation or un-reaching monitor.  As a result, the staffs' operation skill training becomes increasingly important. What's more, with the production facility runs steadily for a long period of time, workers' ability of processing emergency event will be wan.  Regular training is essential for those employees. So, chemial process simulation software must be provided by chemical production software provider. In executable UML, domain and interface can solve the issues very vell. Interfaces between abstracted entities and real entities clearly define the border of software and real equipment.  Because of this character, components of software and hardware can be implemented individually in different domains. More than that, hardware could be imitated by software. It will be very helpful for the system mimetic. With the advantage of domain and interface, the production mode and training mode switch could be done easily and flexibly. And chemical reaction thermodynamics simulation could be done individually to satisfy simulation requirement. 
+									
+									
+					    
 							</div>
 					    </div>
 					
 				
 					
-					    <div class="post__timeline picture">
+					    <div class="post__timeline article">
 					    	<div class="timeline__meta">
-								<time datetime="2014-02-10 00:00:00 +0000">
-									February<br /><small>2014</small>
+								<time datetime="Chemical Production Introduction">
+									Chemical Production Introduction<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -58,11 +70,34 @@ I decided to go to ANU for further study. </p>
 									
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>I get marriage today (Feb. 10, 2014).  A new life style is starting.</p>
+										<p>This chapter introduce some Basic Knowledge about oil distillation. This will be helpful for creating domain diagram, class diagram and state machine diagram.</p>
 									</blockquote>
-									<p><img src="./img/post/marriage.jpg" alt="Down by the beach" /></p>
-
-
+									<p>
+In this portfolio, I will take the atmospheric oil distillation of atmospheric-vacuum chemical workshop section as an example to demonstrate the possibility of applying Model Driven technology to chemical industry software development. 
+</br>        
+In this demonstration, I only pay attention to atmosphere oil distillation tower (green color on the picture above, C-102).
+After Electric desalting and forerunning, the oil was heated (F101)  to 235 degree and pumped into atmosphere oil distillation tower. Due to different physical boiling points, different components in the hot oil will automatically fractionation in the atmospheric tower. So, the temperature of different place within the distillation tower need to be controlled very precisely. 
+<ur>
+<li>Oil trap on top (52) will collect gasoline, </li>
+<li>oil trap 38 will collect kerosene, </li>
+<li>oil trap 26 will collect diesel oil, </li>
+<li>and oil trap 14 will collect wax oil. </li>
+</ur>
+<br/>
+The pink tower (C-103) is rectification tower, where kerosene, diesel oil and wax oil will be rectified to produce high purity kerosene, diesel oil and wax oil. 
+Pumps P-109, P-110 and P-111 are work as temperature controller by pumping hot oil from tower C-103, energy exchanging and then pumping cold oil into tower C103.  
+<ur>
+<li>P-109 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 93 degree. </li>
+<li>P-110 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 153 degree. </li>
+<li>P-111 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 207 degree. </li>
+</ur>
+<br/>
+Pump P-105 and P-110  also pump gasoline from 15th floor plate of tower C101 and top gasoline of tower C102 to balance the pressure of tower C102.  
+Pumps of P106, P107 and P108 remove related rectified oil from tower C103. 
+<br/>
+Besides pumps, there are temperature monitors TM4, TM14, TM22, TM25, TM34,TM 38, TM50 and TM52 etc. to monitor the temperature of their place. There are material flowing speed monitor SM101, SM105,SM109,SM110 and SM111 etc. to monitor material flow speed of their place. 	
+<br/>
+						<img src="./img/xtUML/ChemicalFlow.jpg" alt="Chemical Flow" /></p>
 								
 							    
 							</div>
@@ -70,10 +105,10 @@ I decided to go to ANU for further study. </p>
 					
 				
 					
-					    <div class="post__timeline personal picture">
+					    <div class="post__timeline  picture">
 					    	<div class="timeline__meta">
-								<time datetime="2014-01-30 00:00:00 +0000">
-									January<br /><small>2014</small>
+								<time datetime="Domains Classes and State Machine">
+									Domains Classes and State Machine<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -93,8 +128,8 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
 					
 					    <div class="post__timeline design">
 					    	<div class="timeline__meta">
-								<time datetime="2014-01-23 00:00:00 +0000">
-									January<br /><small>2014</small>
+								<time datetime="Study Note">
+									Study Note<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -102,9 +137,9 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
 									
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>The Power FTP is a tool which is used to put files to distributed system which would have hundreds or thousand servers.</p>
+										<p>For the basic knowledge, I write a study note, which includes Domain, Data Modelling, State Modelling, Process Modelling and Executable Specification.</p>
 									</blockquote>
-									<p>I create a project named PowerFTP on github. Everyone can <a href="https://github.com/jevy-wangfei/PowerFTP">join me</a> if you like this project. </p>
+									<p> Please find my <a href="pdf/ModelDrivenSoftwareDevelopment.pdf">Learning Note</a> here. </p>
 
 
 								
@@ -112,111 +147,12 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
 							</div>
 					    </div>
 					
-				
-					
-					    <div class="post__timeline article">
-					    	<div class="timeline__meta">
-								<time datetime="2014-01-23 00:00:00 +0000">
-									January<br /><small>2014</small>
-								</time>	
-							</div>
-							<div class="timeline__body">
-								
-									
-									<blockquote>
-										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>Could the aged can operation the iPhone? Could we follow the way of thinking of the aged and children to design products?</p>
-									</blockquote>
-									<p>I planed to buy a old style cell phone for my grandpa, but finally I buy a smart phone (based on Android) because it is so cheap that I can't reject it. </p>
-<p>But I am in problems after giving the phone to my grandpa. He even don't know how to slide and touch the screan.</p>
-<p>After showing him about the how to dial a number and recept a phone severial times, he gradually understands how to let the phone work.
-However, he can't operate the phone smoothly and can't handle the applications besides the basic function of the phone -- calling. </p>
-<p>On other sides, this phennomenon of the aged contacting the smart phone (based on Anfroid) at the first times is the same with children, even they could play with the smartphone after touch the screan serverial times. 
-They don't know how to operation the smart phone by sliding and touching at first. They have no idear about the exceptions which always happend on Android system based smartphone. </p>
-<p>But there is an exception. Children can operation the iPhone smoothly because they know to press the big "HOME" button to go back the home page.
-Could the aged can operation the iPhone smoothly?</p>
-
-								
-							    
-							</div>
-					    </div>
 					
 				
-					
-					    <div class="post__timeline picture">
-					    	<div class="timeline__meta">
-								<time datetime="2014-01-20 00:00:00 +0000">
-									January<br /><small>2014</small>
-								</time>	
-							</div>
-							<div class="timeline__body">
-								
-									<p>
-My sweet came to my home, the kids (my nephew and her neice) try to kiss her. Sweet.
-<img src="./img/post/three_kids_at_home.jpg" alt="Down by the beach" />
-</p>
-
-								
-							    
-							</div>
-					    </div>
-					
-				
-					
-					    <div class="post__timeline article">
-					    	<div class="timeline__meta">
-								<time datetime="2014-01-19 00:00:00 +0000">
-									January<br /><small>2014</small>
-								</time>	
-							</div>
-							<div class="timeline__body">
-								
-									<p>This is the first post on this new blog. I will update all of the messages about me here. </p>
-<p>Besides, I also displayed my design and picture in this blog. I am very interested in computer technology very much, and I hope to post the laterest information here.
-</p>
-<p>Also, I am an amateur photographer. I will display the most beautiful pictures here.</p>
-<p>Welcome to my blog, you can contact me <a href="https://github.com/jevy-wangfei">Here</a>, Or send a message to me by <a href="mailto:jevy.wangfei@gmail.com">email</a></p>
-
-
-								
-							    
-							</div>
-					    </div>
-					
-				
-					
-					    <div class="post__timeline personal picture">
-					    	<div class="timeline__meta">
-								<time datetime="2014-01-01 00:00:00 +0000">
-									January<br /><small>2014</small>
-								</time>	
-							</div>
-							<div class="timeline__body">
-								
-									
-									<blockquote>
-										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>Personal State, Applying Master Degree in Australian Universty.</p>
-									</blockquote>
-									<p>My name is Fei Wang. I graduated from Hefei University of Technology (one national key university of China) in 2010. In the past three years, I worked in the global technology service department of ZTE co., LTD. </p>
-
-<p>I am very interested in large scale data process and familiar with some excellent large-scale data process solutions such as hadoop and NoSQL. I want to make an in-deep research on it. In order to further improve my professional capabilities, I plan to go abroad for further study. </p>
-
-<p>Please following the link to know me. <a href="./pdf/personal.pdf">Fei Wang’s CV</a>
-<img src="../img/me.jpg" /></p>
-
-
-								
-							    
-							</div>
-					    </div>
-					
-				
-
 	
 </div>
 <div id="footer">
-<p>I made this out of loving technology and showing my designing. <a href="mailto:jevy.wangfei@gmail.com"> Contact me here</a>.
+<p>I made this out of demonstration xtUML on chemical industry software and loving technolog. <a href="mailto:jevy.wangfei@gmail.com"> Contact me here</a>.
 <br />See how I did this on <a href="https://github.com/jevy-wangfei/jevy-wangfei.github.com">Github.</a></p>
 
 </div>

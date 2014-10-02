@@ -4,14 +4,18 @@ body{margin:0; color:#FFFFFF;font-family:Calibri,Arial,Verdana;line-height:150%;
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
-#menu{float:right; margin-top:-15px; font:bord; font-size:18px; display: block;background-color:rgba(255,255,255,0.8);
+#menu{ margin-top:-20px; font-size:18px; display: block; float:left;
+background-color:rgba(255,255,255,0.9);
 z-index: 100;
 clear:both;
 overflow: visible;
-position: fixed;}
+position: fixed;
+width:840px;
+}
+
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
 #timeline {clear:both; width:840px; margin-left: auto; margin-right: auto;}
-#aboutme { padding-top:400px; padding-bottom:50px;}
+#aboutme { padding-top:100px; padding-bottom:50px;}
 
 
 

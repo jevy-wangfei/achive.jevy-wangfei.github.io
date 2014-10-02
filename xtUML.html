@@ -7,14 +7,14 @@
 		<link rel="stylesheet" href="/css/xtUML.css">
 　　</head>
 　　<body>
+
+　　　　<div id="timeline">
 <div id="menu">
 <li><a href="#" id="all" class="live">All</a></li>
 <li><a href="#" id="personal">Portfolio Introduction</a></li>
-<li><a href="#" id="article">Chemical Production Introduction</a></li>
-<li><a href="#" id="picture">Domains Classes and State Machine</a></li>
+<li><a href="#" id="article">Chemical Introduction</a></li>
+<li><a href="#" id="picture">Modelling</a></li>
 <li><a href="#" id="design">Study Note</a></li>
-　　　　<div id="timeline">
-
 
 </div>
 <div id="aboutme">
@@ -28,7 +28,7 @@
 					    <div class="post__timeline personal">
 					    	<div class="timeline__meta">
 								<time datetime="Portfolio Introduction">
-									July<br /><small>2014</small>
+									Portfolio Introduction<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -62,7 +62,7 @@ In addition, with the development of chemical industry, a large-scale production
 					    <div class="post__timeline article">
 					    	<div class="timeline__meta">
 								<time datetime="Chemical Production Introduction">
-									February<br /><small>2014</small>
+									Chemical Production Introduction<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -70,23 +70,27 @@ In addition, with the development of chemical industry, a large-scale production
 									
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>Basic Knowledge about oil distillation</p>
+										<p>This chapter introduce some Basic Knowledge about oil distillation. This will be helpful for creating domain diagram, class diagram and state machine diagram.</p>
 									</blockquote>
 									<p>
 In this portfolio, I will take the atmospheric oil distillation of atmospheric-vacuum chemical workshop section as an example to demonstrate the possibility of applying Model Driven technology to chemical industry software development. 
 </br>        
 In this demonstration, I only pay attention to atmosphere oil distillation tower (green color on the picture above, C-102).
 After Electric desalting and forerunning, the oil was heated (F101)  to 235 degree and pumped into atmosphere oil distillation tower. Due to different physical boiling points, different components in the hot oil will automatically fractionation in the atmospheric tower. So, the temperature of different place within the distillation tower need to be controlled very precisely. 
+<ur>
 <li>Oil trap on top (52) will collect gasoline, </li>
 <li>oil trap 38 will collect kerosene, </li>
 <li>oil trap 26 will collect diesel oil, </li>
 <li>and oil trap 14 will collect wax oil. </li>
+</ur>
 <br/>
 The pink tower (C-103) is rectification tower, where kerosene, diesel oil and wax oil will be rectified to produce high purity kerosene, diesel oil and wax oil. 
 Pumps P-109, P-110 and P-111 are work as temperature controller by pumping hot oil from tower C-103, energy exchanging and then pumping cold oil into tower C103.  
+<ur>
 <li>P-109 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 93 degree. </li>
 <li>P-110 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 153 degree. </li>
 <li>P-111 pumps hot oil, exchange heat with crude petroleum, and pumps into C-102 with temperature 207 degree. </li>
+</ur>
 <br/>
 Pump P-105 and P-110  also pump gasoline from 15th floor plate of tower C101 and top gasoline of tower C102 to balance the pressure of tower C102.  
 Pumps of P106, P107 and P108 remove related rectified oil from tower C103. 
@@ -104,7 +108,7 @@ Besides pumps, there are temperature monitors TM4, TM14, TM22, TM25, TM34,TM 38,
 					    <div class="post__timeline  picture">
 					    	<div class="timeline__meta">
 								<time datetime="Domains Classes and State Machine">
-									January<br /><small>2014</small>
+									Domains Classes and State Machine<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -125,7 +129,7 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
 					    <div class="post__timeline design">
 					    	<div class="timeline__meta">
 								<time datetime="Study Note">
-									January<br /><small>2014</small>
+									Study Note<br /><small>2014</small>
 								</time>	
 							</div>
 							<div class="timeline__body">
@@ -133,9 +137,9 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
 									
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>The Power FTP is a tool which is used to put files to distributed system which would have hundreds or thousand servers.</p>
+										<p>For the basic knowledge, I write a study note, which includes Domain, Data Modelling, State Modelling, Process Modelling and Executable Specification.</p>
 									</blockquote>
-									<p>I create a project named PowerFTP on github. Everyone can <a href="https://github.com/jevy-wangfei/PowerFTP">join me</a> if you like this project. </p>
+									<p> Please find my <a href="pdf/ModelDrivenSoftwareDevelopment.pdf">Learning Note</a> here. </p>
 
 
 								
