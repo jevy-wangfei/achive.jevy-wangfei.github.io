@@ -4,7 +4,7 @@ body{margin:0; color:#eaeaea;font-family:Calibri,Arial,Verdana;line-height:150%;
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
 #name{height:50; font-size:24px; margin-left: 50px; }
 #blog{float: left; height:25px; margin-top:-45px; margin-left: 180px;font-size: 48px;}
-#menu{ margin-top:-5px; font-size:18px; display: block; float:left;
+#menu{ margin-top:-30px; font-size:18px; display: block; float:left;
 background:url(../img/xtUML/menuBackground.jpg);
 z-index: 100;
 clear:both;
