@@ -2,7 +2,6 @@
 layout: default
 title: Jevy's Blog
 ---
-<div id="timeline" >
 <div id="menu">
 <li><a href="#" id="personal">Personal</a></li>
 <li><a href="#" id="article">Article</a></li>
@@ -11,11 +10,16 @@ title: Jevy's Blog
 <li><a href="#" id="all" class="live">All</a></li>
 </div>
 <div id="aboutme">
+<div class="me_img"><img src="img/me.jpg"/></div>
+<div class="me">
 <h1>Wang Fei</h1>
 <p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
 I decided to go to ANU for further study. </p>
-
 </div>
+</div>
+<div id="timeline" >
+
+
 
 				{% for post in site.posts %}
 					{% if post.category == 'timeline' %}
@@ -23,11 +27,11 @@ I decided to go to ANU for further study. </p>
 					    	<div class="timeline__meta">
 								<time datetime="{{ post.date }}">
 									{{ post.date | date: "%B" }}<br/><small>{{ post.date | date: "%Y" }}</small>
-								</time>	
+								</time>
 							</div>
 							<div class="timeline__body">
 								{% if post.quote %}
-									
+
 									<blockquote>
 										<span class="quote">&#8220;<br>&#8221;</span>
 										<p>{{ post.quote }}</p>
@@ -36,13 +40,13 @@ I decided to go to ANU for further study. </p>
 								{% else %}
 									{{ post.content }}
 								{% endif %}
-							    
+
 							</div>
 					    </div>
 					{% endif %}
 				{% endfor %}
 
-	
+
 </div>
 <div id="footer">
 {% include footer.html %}

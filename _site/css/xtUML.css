@@ -1,4 +1,4 @@
-html{background-color:#808080; background: url(../img/xtUMLBackground1250.jpg) no-repeat center fixed;}
+html{background-color:#808080; background: url(../img/xtUMLBackground1250.jpg) no-repeat center top fixed;}
 body{margin:0; color:#eaeaea;font-family:Calibri,Arial,Verdana;line-height:150%; font-size:18px;}
 
 #header{clear:both; height:80px; padding-left:200px; padding-top: 20px; padding-right:200px; margin-top:-20px; background: gray; }
@@ -12,6 +12,7 @@ overflow: visible;
 position: fixed;
 width:840px;
 }
+
 
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
 #timeline {clear:both; width:840px; margin-left: auto; margin-right: auto;}
