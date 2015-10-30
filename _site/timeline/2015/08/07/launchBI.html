@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>I worked in telecom industry for three years as IT engineer, project manager and Billing expert. The pains of customers’ report requirements and the limitation of our company’s telecom business intelligence system inspire me to create a easy to use, easy to maintainance and affortable data analysis system for small and medium telecom companies. The vision is that the system is easy enough which can be installed and maintained part-timely by IT engineer, the configuration of adding new data analysis functions is easy enough that no data analysis experts required, and the system is free for basic data analysis requirements and buy customerized function just as shopping online.</p>
+
+<p>Because I clearly know what current telecom companies expectation and have experience to manage a technic project, I am very confident that the project is valuable enough to attract customers and investors. Meanwhile, Some classmates are interested in this project after talking the project with them. We create a team and begin to start the work.</p>
+
+<p>Considering the situation of telecom industry and data analysis requirements, the structure of the system is divided into three parts: UI, Server and Data analysis Engine.</p>
+
+<p>Data Analysis Engine reads data from database or data file and do data static, data analysis, and data learning. The engine will be written by Scala language, run on Spark Map/Reduce Engine and process data on Hadoop HDFS (processing managed by Hadoop YARN). Data analysis result will be written on MongoDB.</p>
+
+<ol>
+  <li>Server reads processed data from MongoDB, transforms it to JSON format and finally provides JSON data as RESTful services.</li>
+  <li>UI includes Web, iOS and Android platform. It uses javascript to acquire RESTful services from server and show data and chart on UI.</li>
+</ol>
+
+<p>So good so far. We do researches on all of technologies mentioned above. Danyang Li constructs a proto server to provide RESTful login services. Jun Chen writes a first Spark map/reduce program using Scala. Hongyu Gao and Yiyuan Zhou design a proto UI of web and a logo of project. I setup a distributed Spark running environment on Amazon virtual servers and create auto-deploy shell script to get source code from github, compile and renew service on Amazon virtual servers. In group discussion, we also get a name “Daramid” for the project. The name comes from Data Pyramid which means extract valuable and well organized data from large scale raw data.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>

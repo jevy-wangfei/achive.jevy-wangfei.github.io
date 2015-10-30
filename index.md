@@ -16,7 +16,7 @@ title: Jevy's Blog
 <div class="me">
 <h1>Wang Fei</h1>
 <p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
-I decided to go to ANU for further study. </p>
+I go to ANU for further study. I will graduate at May 2016.</p>
 </div>
 </div>
 <div id="timeline" >

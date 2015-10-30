@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>We get two restaurants’ support who will provide us their materials of restaurants and dishes. And they are glade to participate our project to contributes ideas of packaging and delivery.
+With restaurants’s help, Yiyuan Zhou and Hongyu Gao will work on improving business plan to make it mature enough to get cooperation with more restaurant and third parties.
+Danyang Li builts a RESFful service prototype based on spring boot.
+I create a UI prototype design.</p>
+
+<p>Research on distributed images storage and retrieve using javascript and static html from RESTful service. And implement a prototype using code.</p>
+
+<p>There is a technology issues that we should consider now to make the system flexible enough to support larg scale of pictures. The solution we got is:
+1. save images on other machine/directory which is independent to current server.
+2. save a URL and compiled unique name of image to database.
+3. explorer will retrieve image using the URL and name using RESTful image api which provided by image hosted server.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>

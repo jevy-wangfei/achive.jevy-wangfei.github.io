@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>This is the second times of tutor meeting. We introduced our team member’s ability estimate, role assignment, and cooperation mechanism between team members. Two tables below are what we have done last week and next week’s plan.</p>
+
+<p>Work have done :</p>
+
+<p>Name	Tasks finished
+Jack	Law Consulting, market research
+Linda	Setup Server, Architecture of software
+Jevy	Database schema draft and UI draft. Architecture of software.
+Jason	Client and data transaction between client and server
+Kate	Administrate team and resources</p>
+
+<p>Plan of next week:</p>
+
+<p>Name	Task of next week
+Jack	Market plan
+Linda	Services and API
+Jevy	Improve database schema along services, Improve UI
+Jason	Mobile device UI and API along services
+Kate	Administrate and market, services documents
+There are two problem raised by Dr. Flint that we should take care after tutor meeting.</p>
+
+<p>Firstly, there should be a well defined plan for the whole project which estimates the confident of the project. For example, this project have constrains such as time, technologies, human resources, marketing. We can make project plan after understanding those constrains. The plan may change when we really work on the project for a while. The re-estimate step will help us improve the plan, and make us have more confident for the project.
+Secondly, system design should start from class diagrams other than tables relations of database. A well designed a system can greatly save people time when implement it.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>
