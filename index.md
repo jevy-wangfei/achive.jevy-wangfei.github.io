@@ -7,6 +7,8 @@ title: Jevy's Blog
 <li><a href="#" id="article">Article</a></li>
 <li><a href="#" id="picture">Picture</a></li>
 <li><a href="#" id="design">Design</a></li>
+<li><a href="#" id="portfolio">Learn Portfolio</a></li>
+<li><a href="#" id="pc">PC Blog</a></li>
 <li><a href="#" id="all" class="live">All</a></li>
 </div>
 <div id="aboutme">

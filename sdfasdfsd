@@ -1,0 +1,155 @@
+
+= Over view of Stage I =
+<p style="text-align: center;">
+{|
+!Week
+!Tasks
+|-
+|Week 3
+|Launch project of telecom business intelligence. Technology Research on the project
+|-
+|Week 4
+|Research on requirements and build business plan, find problems after estivate team's human resource,technology ability and market of telecom business intelligence.
+|-
+|Week 5
+|Consider to switch to another project named Foodie. Research on the market of food deliver (restaurant and customer) by communicate with restaurants' manager and customers' survey. Make business canvas.
+|-
+|Week 6
+|Confirm that Foodie project is executable and talking with tutor. Start technology researching and market planning after get permission.
+|-
+|Week 7
+|Get restaurants support on requirements and contents on this project. Improve and finish business plan which help to get cooperation with third party. Built RESFful service prototype based on sprint boot. UI prototype design. Research on distributed images storage and retrieve using javascript and static html from RESTful service. And implement a prototype using code.
+|}
+</p>
+
+= Launch Telecom Business Intelligence Project =
+
+<p style="text-align: center;">Aug 7, 2015</p>
+
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+I worked in telecom industry for three years as IT engineer, project manager and Billing expert. The pains of customers' report requirements and the limitation of our company's telecom business intelligence system inspire me to create a easy to use, easy to maintainance and affortable data analysis system for small and medium telecom companies. The vision is that the system is easy enough which can be installed and maintained part-timely by IT engineer, the configuration of adding new data analysis functions is easy enough that no data analysis experts required, and the system is free for basic data analysis requirements and buy customerized function just as shopping online.  </p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Because I clearly know what current telecom companies expectation and have experience to manage a technic project, I am very confident that the project is valuable enough to attract customers and investors. Meanwhile, Some classmates are interested in this project after talking the project with them. We create a team and begin to start the work. </p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Considering the situation of  telecom industry and data analysis requirements, the structure of the system is divided into three parts: UI, Server and Data analysis Engine. </b>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; height:line-height:1.5">
+Data Analysis Engine reads data from database or data file and do data static, data analysis, and data learning. The engine will be written by Scala language, run on Spark Map/Reduce Engine and process data on Hadoop HDFS (processing managed by Hadoop YARN). Data analysis result will be written on MongoDB. </p>
+<p style="padding-left:25px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5"> 1. Server reads processed data from MongoDB, transforms it to JSON format and finally provides JSON data as RESTful services.  <br/> 2. UI includes Web, iOS and Android platform. It uses javascript to acquire RESTful services from server and show data and chart on UI.
+</p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+So good so far. We do researches on all of technologies mentioned above.  Danyang Li constructs a proto server to provide RESTful login services. Jun Chen writes a first Spark map/reduce program using Scala. Hongyu Gao and Yiyuan Zhou design a proto UI of web and a logo of project. I setup a distributed Spark running environment on Amazon virtual servers and create auto-deploy shell script to get source code from github, compile and renew service on Amazon virtual servers. In group discussion, we also get a name "Daramid" for the project. The name comes from Data Pyramid which means extract valuable and well organized data from large scale raw data.
+</p>
+
+
+= Business plight =
+				<p style="text-align: center;">Aug 14, 2015 </p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">We take the first tutor meeting this Monday. The meeting exposes our problems in doing project and leads us to focus on market. The four concepts proposed by Dr. Flint are key factors guiding us to success:
+<p style="padding-left:25px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5"> 1. A software should be valuable for some people or public. On other hand, market means people requirements from which people can get benefit, save time or money, or get convenient. Market is essential for a project, because the goal of software is to create value to those people. When we launch a project, we must estimate its value firstly.  Meanwhile, a successful project should create value for ourselves. <br/> 2. The functions of  software should come from requirements. Project manager and project team should have a well defined requirements and study it carefully. If there is no such requirement(such as setup project), team should discuss or make survey with customers.  <br/>3. Project management is a tool to estimate and build confident of the project. In the "estimate--plan--execute-re-estimate" loop, project management tool helps project manager to estimate current situation, improve project plan and finally improve the confident of the project. Remember, all what we do on project management is to make us more confident for the project. Documents in project management is to help us to finished project, it can't be a burden. For small project, document is not necessary. <br/> 4.Correctly estimate team members' ability and allocate work. Market focused IT project includes kinds of technic and non-technic works. Right people doing right work keeps every one participated in the project and contributes their ability to intelligence. </p>
+</p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Review the four key factors, I and partners find some deficiencies.  The Telecom Business Intelligence project focuses on telecom data analysis. Because of confidential and less of cooperation with telecom companies, we can't get customers' requirements. Also, the industry this project focused is unfamiliar for my partners. They don't understand how the raw data is generated, what to do that  data format and what customers want from our system. It is knowledge and technology constrains. Besides, the project focuses on technologies too much that  two of my partners may not participate in this project in deep because they are not good at programming.  I greatly understand the shortage of human resources, telecom knowledge and technology resources.
+</p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Meanwhile, Danyang Li, Yiyuan Zhou and I are considering to setup a online food booking and delivery system as innovation project on summary vacation. Why not try it now? We have enough technology guys to programing the system. And the two partners can contribute their effort and intelligence on market. It is what they good at. </p>
+
+
+
+= New light from new project =
+				<p style="text-align: center;">Aug 21, 2015</p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">We decided to do some research on the food booking and delivery project after team meeting. I and Jun chen create a customer survey sheet on google form. Danyang Li, Yiyuan Zhou and Hongyu Gao make plan of how and what to talking with manager of restaurants. The survey result is quit good. There are 24 for 30 customer want and like a better food delivery service. 20 of 25 restaurants like to participate this project. The restaurants who don’t have deliver team desire it to improve their business.  From the survey, we found that what the customers really need is a good delivery services, and restaurants expect to attract more customer by providing take away and deliver services. But operate a deliver service (especially some small restaurants) spend much than what they can afford.  Besides these valuable requirements, good parts of the project are that we can start the business and get revenue quickly, all partners can participate the project and contribute their ability to improve the business. </p>
+
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+We create a business canvas to find what we can do for restaurants and public, what and how can we get from the project. </br>We get permission from our tutor to change the Telecom Business Intelligence project to the Foodie project. Considering this is a totally business oriented project, we re-estimate partner's abilities and make adjustment. Yiyuan Zhou focuses on market development and take the responsibility of managing the project. Danyang Li is still going to develop server of services. Jun Chen will focus on transaction of data from server to UI and iOS UI development. Hongyu Gao will work as administrator of the project to push our job and assistant Yiyuan Zhou to development market. I will work on system designing with Danyang Li,  platform for the system, database, and web UI. Danyang Li and I also listen from Yiyuan Zhou for customer requirements to adjust the design of system.
+Team member responsibilities allocation. </p>
+
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+{|
+!Name
+!Responsibility
+|-
+|Jack
+| Market, sale, law and team management
+|-
+|Linda
+|Server application and RESTful API
+|-
+|Jevy
+|Database , UI, project technology architecture and market
+|-
+|Jason
+|RESTful API and mobile device
+|-
+|Kate
+|Market, sale and Administrator of team
+|}
+</p>
+
+= Step in business oriented project =
+				<p style="text-align: center;">Aug 28, 2015 </p>
+
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">This is the second times of tutor meeting. We introduced our team member's ability estimate, role  assignment, and cooperation mechanism between team members. Two tables below are what we have done last week and next week's plan.   </p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">Work have done : </p>
+{|
+!Name
+!Tasks finished
+|-
+|Jack
+|Law Consulting,  market research
+|-
+|Linda
+|Setup Server, Architecture of software
+|-
+|Jevy
+|Database schema draft and UI draft. Architecture of software.
+|-
+|Jason
+|Client and data transaction between client and server
+|-
+|Kate
+|Administrate team and resources
+|}
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Plan of next week: </p>
+{|
+!Name
+!Task of next week
+|-
+|Jack
+|Market plan
+|-
+|Linda
+|Services and API
+|-
+|Jevy
+|Improve database schema along services, Improve UI
+|-
+|Jason
+|Mobile device UI and API along services
+|-
+|Kate
+|Administrate and market, services documents
+|}
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+There are two problem raised by Dr. Flint that we should take care after tutor meeting.
+<p style="padding-left:25px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Firstly, there should be a well defined plan for the whole project which estimates the confident of the project. For example, this project have constrains such as time, technologies, human resources, marketing. We can make project plan after understanding those constrains. The plan may change when we really work on the project for a while. The re-estimate step will help us improve the plan, and make us have more confident for the project. <br/>Secondly, system design should start from class diagrams other than tables relations of database. A well designed a system can greatly save people time when implement it. </p>
+</p>
+
+
+
+
+= Technic trial =
+				<p style="text-align: center;">Sep 04, 2015</p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+We get two restaurants' support who will provide us their materials of restaurants and dishes. And they are glade to participate our project to contributes ideas of packaging and delivery.
+With restaurants's help, Yiyuan Zhou and Hongyu Gao will work on improving business plan to make it mature enough to get cooperation with more restaurant and third parties.
+Danyang Li builts a RESFful service prototype based on spring boot.
+I create a UI prototype design. </p>
+<p style="padding-left:20px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+Research on distributed images storage and retrieve using javascript and static html from RESTful service. And implement a prototype using code.
+</p>
+<p style="padding-left:25px;font-size:16px;padding-left:10px;padding-right:20px; line-height:1.5">
+There is a technology issues that we should consider now to make the system flexible enough to support larg scale of pictures. The solution we got is: <br/>1. save images on other machine/directory which is independent to current server. <br/>
+2. save a URL and compiled unique name of image to database. <br/>
+3. explorer will retrieve image using the URL and name using RESTful image api which provided by image hosted server. <br/></p>
+</p>

@@ -14,13 +14,13 @@
 <p>Welcome to my blog, you can contact me <a href="https://github.com/jevy-wangfei">Here</a>, Or send a message to me by <a href="mailto:jevy.wangfei@gmail.com">email</a></p>
 
 
-	
+
 　　</body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-	
+
         $(document).ready(function() {
-            $('#personal,#article,#picture,#design,#all').click(function(e) {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
 				var menu_show = this.id.toLowerCase().toString();
@@ -38,6 +38,6 @@
                 e.preventDefault();
             });
         });
-		
+
     </script>
 　　</html>

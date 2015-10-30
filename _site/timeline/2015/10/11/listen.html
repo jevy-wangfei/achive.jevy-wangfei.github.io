@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>There are a lot of cool technics designed for kinds of purpose, such as Mongodb, Hadoop, Spark, Hbase etc. IT students are interested in  using these cool technics to build powerful and awesome product from. However, these advanced technics are developed for specific situations, such as big data analysis, quick data retrieve, or pattern learning from big data. One trap of IT project is to focus on computer technics too much to listen to customers.</p>
+
+<p>IT engineers love to learn new technics, like challenges, and desire to make perfect software. However, most of IT projects are developed to solve or improve routine works.</p>
+
+<p>However, IT engineer doesn’t like to talking with non-IT customers.</p>
+
+<p><img src="http://img.deusm.com/allanalytics/2012/07/247351/114258_691632.jpg" /></p>
+
+<p>We sometime forget the purpose of the IT sometime. The IT is invented to convenient people’s live, to improve people’s production in work and  to build a better world. A good project creates value to public and creates profit to its entity. What we do  now on feedme project is to serve people who book dishes on line and improve restaurants services.</p>
+
+<p>Besides the requirements from customer, your project team have to process kinds of issues such as law of enterprise, law of security, cooperation with other entities etc. when you start a business based on your project.</p>
+
+<p>For market oriented project, we must understand customers’ requirement before making plan. We make survey to restaurants and public before the project. Talking to customers is the best way to know your customer.</p>
+
+<p>Fortunately, Jack is very good at talking business with restaurant, and he keeps connect with restaurant throughout the project. Jack does great work on this. He contacts lawyer to consult of setup business, insurance for delivery guys and food safe, payment and tax issues. He collects information from his channel, and shares with us. All of other team member also learn a lot from his work.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>

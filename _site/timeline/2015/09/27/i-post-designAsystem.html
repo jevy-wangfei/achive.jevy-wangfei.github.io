@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>Design a system? Not a easy work</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>Because I am the only one who worked as software engineer at enterprise, I take the responsibility of designing the system. It is a online ordering and delivery system, and it seams very easy to handle. But when I step into the detail, more and more tough jobs are waiting me to solve.</p>
+
+<p>System structure design
+I make two assumptions before the system structure designing:</p>
+
+<ol>
+  <li>Support ten thousand restaurants in future.</li>
+  <li>At lease one hundred dishes in a restaurant. And the size of each dish photo is about 0.5MB.</li>
+  <li>There are system access peak at moon and 5:00pm to 7:00pm of lunch and dinner.</li>
+  <li>Flow and convenient usage to view restaurants, dishes in photos and text.</li>
+  <li>System will be extended and undertake more function, such as sharing delicious food by taking photos.</li>
+  <li>Multi devices.</li>
+  <li>Multi client.</li>
+</ol>
+
+<p>Based on those assumptions, following design features should be considered:</p>
+
+<ol>
+  <li>At least 50GB volume for pictures storage is required.</li>
+  <li>At least 1,000 concurrent service accessing in peak time supports.</li>
+  <li>Web explorer, iOS devices, Android devices and Tablet Devices support.</li>
+</ol>
+
+<p><img style="background:#FFF" src="./img/tmp/SystemArchitecture0.1.png" /></p>
+
+<p>Because it is a business system, reliable, stable, response time and extendable features are considered. Solutions show as bellow:</p>
+
+<ol>
+  <li>At least 50GB volume for pictures storage is required.</li>
+  <li>At least 1,000 concurrent service accessing in peak time supports.</li>
+  <li>Web explorer, iOS devices, Android devices and Tablet Devices support.</li>
+  <li>Caching data on server to provide quick response time and good quality of services.</li>
+  <li>Using mongo DB to manage pictures.</li>
+  <li>Using MySQL to manage restaurants, dishes, orders and payment etc data.</li>
+  <li>Using RESTful API to provides data accessing from clients.</li>
+  <li>Using rich clients application to handle customers operation.</li>
+</ol>
+
+<p>API and application design
+Based on the structure introduced above, we build a web host server, MySQL database and  program restaurants and dishes CRUD APIs. Pictures are stored on server current, we will transfer the pictures storage to mongo DB in next stage.</p>
+
+<p>The system provides four main distinctive services:
+	Group delivery, hot dishes suggestion and find food by location</p>
+
+<p>In project meeting, we talked a lot  services. However, how to implement them using code? We abstract models and actions from the services, define the API of to operate data on remote server and define the operation on client applications.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>CV</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>Don’t let UI obstacle your progress
+Our team is very worry about the system UI development since there is no one has the experience of designing. More than that, because what we do is to create a UI based software, they don’t know how to develop the software without a visual UI.  I tried to designed a UI and it is considered to be failure. The UI is an obstacle of us to do further job.</p>
+
+<p>To make the work going without UI,  I decompose the UI into fragments and layout what data to required to display on the fragment. It works for Jun chen. He programs the web application based on these fragments and spend only three days (six hours) to moving his application to the new UI.</p>
+
+<p><img style="background:#FFF" src="./img/tmp/A.jpeg" /></p>
+
+<p>For the UI design, we need help from others.  Posting advertisement in art school of ANU, there is no response in a week. Calling friends who have the experience of design UI, they are too busy for their work. Finally, we get response from freelancer.com, and the freelancer spend 3 days to design the UI. Our team confirm the UI work after four times editing.</p>
+
+<p>One week left only when we finally get the UI design.  Considering no people is proficient  the CSS and JavaScript, I take the task and spend three days  to implement the UI. And make some modification in next four days.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+    </script>
+　　</html>

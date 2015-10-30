@@ -2,7 +2,7 @@
 layout: default
 title: I like using email
 category: timeline
-tags: personal article
+tags: pc
 quote: Slow to deliver? Spam mails? But I LOVE using email
 ---
 

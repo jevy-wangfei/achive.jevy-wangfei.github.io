@@ -16,13 +16,13 @@ They don't know how to operation the smart phone by sliding and touching at firs
 <p>But there is an exception. Children can operation the iPhone smoothly because they know to press the big "HOME" button to go back the home page.
 Could the aged can operation the iPhone smoothly?</p>
 
-	
+
 　　</body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-	
+
         $(document).ready(function() {
-            $('#personal,#article,#picture,#design,#all').click(function(e) {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
 				var menu_show = this.id.toLowerCase().toString();
@@ -40,6 +40,6 @@ Could the aged can operation the iPhone smoothly?</p>
                 e.preventDefault();
             });
         });
-		
+
     </script>
 　　</html>
