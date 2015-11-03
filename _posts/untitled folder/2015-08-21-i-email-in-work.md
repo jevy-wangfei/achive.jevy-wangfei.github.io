@@ -1,6 +1,7 @@
 ---
 layout: default
 title: I like using email
+dd: Ilikeusingemail
 category: timeline
 tags: pc
 quote: Slow to deliver? Spam mails? But I LOVE using email

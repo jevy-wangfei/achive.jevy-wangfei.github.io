@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Drone Delivery Project Review
+dd: DroneDeliveryProjectReview
 category: timeline
 tags: pc
 quote: A Good IT project does not means a good business in furture. More things required to make project becoming business.

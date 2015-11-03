@@ -61,14 +61,14 @@ I go to ANU for further study. I will graduate at May 2016.</p>
             </a>
         </li>
     
-        <li class="post-teaser pc" onclick="showArticle('')">
+        <li class="post-teaser pc" onclick="showArticle('TechnicTrust')">
             <a href="#">
                 <span class="post-teaser__title">Technic Trust</span>
                 <!-- <span class="post-teaser__date">26 September 2015</span> -->
             </a>
         </li>
     
-        <li class="post-teaser pc" onclick="showArticle('')">
+        <li class="post-teaser pc" onclick="showArticle('DroneDeliveryProjectReview')">
             <a href="#">
                 <span class="post-teaser__title">Drone Delivery Project Review</span>
                 <!-- <span class="post-teaser__date">22 September 2015</span> -->
@@ -96,14 +96,14 @@ I go to ANU for further study. I will graduate at May 2016.</p>
             </a>
         </li>
     
-        <li class="post-teaser pc" onclick="showArticle('')">
+        <li class="post-teaser pc" onclick="showArticle('Ilikeusingemail')">
             <a href="#">
                 <span class="post-teaser__title">I like using email</span>
                 <!-- <span class="post-teaser__date">21 August 2015</span> -->
             </a>
         </li>
     
-        <li class="post-teaser pc" onclick="showArticle('')">
+        <li class="post-teaser pc" onclick="showArticle('ITProjectBusiness')">
             <a href="#">
                 <span class="post-teaser__title">IT Project = Business? Not as simple as the equation</span>
                 <!-- <span class="post-teaser__date">14 August 2015</span> -->
@@ -124,7 +124,7 @@ I go to ANU for further study. I will graduate at May 2016.</p>
             </a>
         </li>
     
-        <li class="post-teaser pc" onclick="showArticle('')">
+        <li class="post-teaser pc" onclick="showArticle('InteviewPreparation')">
             <a href="#">
                 <span class="post-teaser__title">Inteview Preparation</span>
                 <!-- <span class="post-teaser__date">07 August 2015</span> -->
@@ -391,7 +391,7 @@ Based on the structure introduced above, we build a web host server, MySQL datab
 					
 				
 					
-					    <div class="post__timeline pc">
+					    <div class="post__timeline pc" id="TechnicTrust">
 					    	<div class="timeline__meta">
 								<time datetime="2015-09-26 00:00:00 +1000">
 									September<br /><small>2015</small>
@@ -425,7 +425,7 @@ Based on the structure introduced above, we build a web host server, MySQL datab
 					
 				
 					
-					    <div class="post__timeline pc">
+					    <div class="post__timeline pc" id="DroneDeliveryProjectReview">
 					    	<div class="timeline__meta">
 								<time datetime="2015-09-22 00:00:00 +1000">
 									September<br /><small>2015</small>
@@ -567,7 +567,7 @@ Kate	Market, sale and Administrator of team</p>
 					
 				
 					
-					    <div class="post__timeline pc">
+					    <div class="post__timeline pc" id="Ilikeusingemail">
 					    	<div class="timeline__meta">
 								<time datetime="2015-08-21 00:00:00 +1000">
 									August<br /><small>2015</small>
@@ -595,7 +595,7 @@ Kate	Market, sale and Administrator of team</p>
 					
 				
 					
-					    <div class="post__timeline pc">
+					    <div class="post__timeline pc" id="ITProjectBusiness">
 					    	<div class="timeline__meta">
 								<time datetime="2015-08-14 00:00:00 +1000">
 									August<br /><small>2015</small>
@@ -710,7 +710,7 @@ Kate	Market, sale and Administrator of team</p>
 					
 				
 					
-					    <div class="post__timeline pc">
+					    <div class="post__timeline pc" id="InteviewPreparation">
 					    	<div class="timeline__meta">
 								<time datetime="2015-08-07 00:00:00 +1000">
 									August<br /><small>2015</small>
@@ -933,7 +933,7 @@ My sweet came to my home, the kids (my nephew and her neice) try to kiss her. Sw
 </div>
 <div id="footer">
 <p>I made this out of loving technology and showing my designing. <a href="mailto:jevy.wangfei@gmail.com"> Contact me here</a>.
-<br />See how I did this on <a href="https://github.com/jevy-wangfei/jevy-wangfei.github.com">Github.</a></p>
+<br />See how I did this on <a href="https://github.com/jevy-wangfei">Github.</a></p>
 
 </div>
 
@@ -947,7 +947,7 @@ My sweet came to my home, the kids (my nephew and her neice) try to kiss her. Sw
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
 				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(600);
+				post.fadeOut(300);
 				//alert(filterSelect);
                 $('#menu').children().removeClass('live');
 				//alert(menu_show);
@@ -967,7 +967,7 @@ My sweet came to my home, the kids (my nephew and her neice) try to kiss her. Sw
                 var filterSelect = "#" + this.id;
 				var post = $('.post-teaser');
 				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(600);
+				post.fadeOut(300);
 				//alert(filterSelect);
                 $('#menu').children().removeClass('live');
 				//alert(menu_show);
@@ -983,7 +983,7 @@ My sweet came to my home, the kids (my nephew and her neice) try to kiss her. Sw
         });
 
 				function showArticle(id){
-					$('.post__timeline').fadeOut(600);
+					$('.post__timeline').fadeOut(100);
 					console.log(id);
 					$("#"+id).fadeIn(600);
 				}

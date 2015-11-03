@@ -41,7 +41,7 @@ Secondly, system design should start from class diagrams other than tables relat
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
 				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(600);
+				post.fadeOut(300);
 				//alert(filterSelect);
                 $('#menu').children().removeClass('live');
 				//alert(menu_show);
@@ -61,7 +61,7 @@ Secondly, system design should start from class diagrams other than tables relat
                 var filterSelect = "#" + this.id;
 				var post = $('.post-teaser');
 				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(600);
+				post.fadeOut(300);
 				//alert(filterSelect);
                 $('#menu').children().removeClass('live');
 				//alert(menu_show);
@@ -77,7 +77,7 @@ Secondly, system design should start from class diagrams other than tables relat
         });
 
 				function showArticle(id){
-					$('.post__timeline').fadeOut(600);
+					$('.post__timeline').fadeOut(100);
 					console.log(id);
 					$("#"+id).fadeIn(600);
 				}

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Technic Trust
+dd: TechnicTrust
 category: timeline
 tags: pc
 quote: Back Door!!! How to check whether there are back doors in software? Code Review? It's Technic Trust issue, and it will become a obstruction of technic development.

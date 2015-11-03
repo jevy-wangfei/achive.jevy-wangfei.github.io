@@ -40,16 +40,14 @@ min-height: 700px;
 	width: 200px;
 	padding: 10px;
 	background-color: rgba(255,255,255,0.1);
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 5px;
 	color: #FFF;
 }
 .leftNav li{
-	list-style: none;
+	list-style:inside;
 }
-.leftNav li a{
-	color: #FFF;
-}
+
 
 
 .timeline__meta{float:left; margin-top:18px;padding-top:20px;margin:0;text-align:right; width:120px;}
@@ -79,6 +77,14 @@ a,a:link,a:visited {
 }
 a img,a:link img,a:visited img{border:0;display:block;}
 
+.leftNav li a{
+	color: #FFF;
+	font-style:oblique;
+	border: none;
+	border-bottom: 0px solid rgba(255,255,255,0);
+	text-decoration: none;
+	margin: 5px;
+}
 
 .live{color:#FFA722}
 h1 {font-size:24pt}
