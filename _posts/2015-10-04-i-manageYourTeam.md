@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title: Manage your team
+dd: ManageYourTeam
 category: timeline
 tags: portfolio
 quote: Week 9, Manage your team, learn from your team

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title: New light from new project
+dd: NewLightFromNewProject
 category: timeline
 tags: portfolio
 quote: Week 5, New light from new project

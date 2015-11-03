@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title: Business plight
+dd: BusinessPlight
 category: timeline
 tags: portfolio
 quote: Week 4, Business plight

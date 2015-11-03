@@ -13,7 +13,10 @@ background-color: gray;
 width: 100%;
 padding-left: 200px;}
 #menu li {margin:5px 10px 5px 10px; float: left; list-style:none; }
-#timeline {clear:both; width:740px; margin-left: auto; margin-right: auto; }
+#timeline { width:740px; margin-left: auto; margin-right: auto; z-index: 1;
+	float: left; margin-left: 300px;
+min-height: 700px;
+	}
 #aboutme { padding-top:40px; padding-bottom:50px;  clear:both; margin-left: 50px;}
 #aboutme img{
 	border-radius: 10px;
@@ -29,6 +32,24 @@ padding-left: 200px;}
 	margin: 20px;
 	margin-left: 60px;
 }
+.leftNav{
+	position: absolute;
+	z-index: 99;
+	left: 40px;
+	top: 300px;
+	width: 200px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.1);
+	font-size: 16px;
+	border-radius: 5px;
+	color: #FFF;
+}
+.leftNav li{
+	list-style: none;
+}
+.leftNav li a{
+	color: #FFF;
+}
 
 
 .timeline__meta{float:left; margin-top:18px;padding-top:20px;margin:0;text-align:right; width:120px;}
@@ -42,7 +63,9 @@ padding-left: 200px;}
 
 
 
-#footer{ height:80px; padding-left:200px;  padding-right:200px;  padding-top: 10px; margin-bottom:-20px;text-align:center; clear:both; background:gray;}
+#footer{ height:80px; padding-left:200px;
+
+	padding-right:200px;  padding-top: 10px; margin-bottom:-20px;text-align:center; clear:both; background:gray;}
 #footer p{font-size:14px}
 
 

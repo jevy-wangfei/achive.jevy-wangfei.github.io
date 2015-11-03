@@ -19,13 +19,23 @@ title: Jevy's Blog
 I go to ANU for further study. I will graduate at May 2016.</p>
 </div>
 </div>
+<div class="leftNav">
+    {% for post in site.posts %}
+        <li class="post-teaser {{ post.tags | join:' ' }}" onclick="showArticle('{{post.dd}}')">
+            <a href="#">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <!-- <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span> -->
+            </a>
+        </li>
+    {% endfor %}
+</div>
 <div id="timeline" >
 
 
 
 				{% for post in site.posts %}
 					{% if post.category == 'timeline' %}
-					    <div class="post__timeline {{ post.tags | join:' ' }}">
+					    <div class="post__timeline {{ post.tags | join:' ' }}" id="{{post.dd}}">
 					    	<div class="timeline__meta">
 								<time datetime="{{ post.date }}">
 									{{ post.date | date: "%B" }}<br/><small>{{ post.date | date: "%Y" }}</small>

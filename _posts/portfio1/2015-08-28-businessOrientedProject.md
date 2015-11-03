@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title: Step in business oriented project
+dd: StepInBusinessOrientedProject
 category: timeline
 tags: portfolio
 quote: Week 6, Step in business oriented project

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Play with kids
+title: Study at ANU
+dd: StudyAtANU
 category: timeline
 tags: personal picture
 quote: I begin my study at ANU. ANU is a great university.

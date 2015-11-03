@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title:  Technic trial
+dd:  TechnicTrial
 category: timeline
 tags: portfolio
 quote: Week 7, Technic trial

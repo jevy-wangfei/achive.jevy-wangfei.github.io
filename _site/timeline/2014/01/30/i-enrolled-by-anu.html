@@ -2,7 +2,7 @@
 　　<html>
 　　<head>
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　　　<title>CV</title>
+　　　　<title>Offer of ANU</title>
 		<link rel="stylesheet" href="/css/css.css">
 　　</head>
 　　<body>
@@ -11,7 +11,6 @@
 I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. Happy Spring Day. Happy ending of 2013. Good start of 2014.
 
 </p>
-
 
 
 　　</body>
@@ -38,5 +37,30 @@ I was enrolled by ANU at the 30th of Junary 2014. It's the Spring Day of China. 
             });
         });
 
+				$(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(600);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
     </script>
 　　</html>

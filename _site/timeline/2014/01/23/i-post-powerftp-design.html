@@ -10,7 +10,6 @@
 　　　　<p>I create a project named PowerFTP on github. Everyone can <a href="https://github.com/jevy-wangfei/PowerFTP">join me</a> if you like this project. </p>
 
 
-
 　　</body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -35,5 +34,30 @@
             });
         });
 
+				$(document).ready(function() {
+            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(600);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(600);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
     </script>
 　　</html>
