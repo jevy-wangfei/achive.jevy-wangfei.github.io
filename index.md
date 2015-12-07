@@ -4,9 +4,9 @@ title: Jevy's Blog
 ---
 <div id="menu">
 <li><a href="#" id="personal">Personal</a></li>
+<li><a href="#" id="project">Project</a></li>
 <li><a href="#" id="article">Article</a></li>
 <li><a href="#" id="picture">Picture</a></li>
-<li><a href="#" id="design">Design</a></li>
 <li><a href="#" id="portfolio">Learn Portfolio</a></li>
 <li><a href="#" id="pc">PC Blog</a></li>
 <li><a href="#" id="all" class="live">All</a></li>

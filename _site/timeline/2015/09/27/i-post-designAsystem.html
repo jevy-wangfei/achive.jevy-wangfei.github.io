@@ -59,7 +59,7 @@ Based on the structure introduced above, we build a web host server, MySQL datab
     <script>
 
         $(document).ready(function() {
-            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
                 var filterSelect = "#" + this.id;
 				var post = $('.post__timeline');
 				var menu_show = this.id.toLowerCase().toString();
@@ -79,7 +79,7 @@ Based on the structure introduced above, we build a web host server, MySQL datab
         });
 
 				$(document).ready(function() {
-            $('#personal,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
                 var filterSelect = "#" + this.id;
 				var post = $('.post-teaser');
 				var menu_show = this.id.toLowerCase().toString();

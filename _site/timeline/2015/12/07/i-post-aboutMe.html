@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>About Me</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>I am Fei Wang, a second year master student majoring in Computing in Australia National University (ANU). I have found the Informatics Software Engineer job opportunity from CSIRO website.</p>
+
+<p>Prior to studying in ANU, I had worked at ZTE soft on a large scale information manage system called Business Operate and Service Support (BOSS) for almost 3 years, which provides services such as online prepaid/postpaid billing, balance recharging, service opening/closing, accounting, international/domestic settlement, services provisioning etc. When I was working on the projects in Vietnam and Myanmar, my major responsibility was deploying, testing, optimizing and maintaining the BOSS system running on more than 10 IBM AIX UNIX and SUSE Linux servers.) The work was challenging because of the large scale of subscribers, high concurrences, large scale of data and tight-timeframe. However, I always achieved the targets because of the characters of carefulness, patience, calmness, credibility and experience of real-time business operation. I believe these characteristics can also be helpful for the job I am applying for.
+I also leaded a deploy team to work on the Bangladesh Internal Exchange and International Gateway billing project. Our team successfully complete this project and got the provisional acceptance certificate (PAC) from customers two months ahead the deadline, which benefit our company a lot.</p>
+
+<p><img src="../img/me.jpg" /></p>
+
+<p>Base on these experience, I am confident that several features promising me be capable for the job. Firstly, I master a lot of IT technics and acquire knowledge of Linux/Unix management, Oracle/MySQL maintain, IT system implementation, IT system management, high availability management, http server management, web service frameworks, and programming using java, python, shell, PL/SQL and C++. Secondly, I have high vision of IT system, which will highly improve the production and quality of code. Thirdly, I experienced IT projects in three countries and launched them for commercial usage. These experiences will highly facilitate me for new tight-timeframe projects, and help me to overcome challenges.</p>
+
+<p>I am studying large scale data process and machine learning in ANU. To improve my knowledge of computer science, I completed the courses of relation database, algorithm, software construction, model driven software development and project management in the last 1.5 years, and courses of computer network, distributed system will be considered in next semester.
+In order to keep technology competitiveness, I am learning and keep tracking the following technics.</p>
+
+<ul>
+  <li>Data processing: Spark, Cassandra, MongoDB, Hadoop.</li>
+  <li>Web development: Spring boot, Python, Bootstrap, JQuery, Nodejs(Express), Meteor, flask.</li>
+  <li>Program language: Java, Python (in science and AI subjects), JavaScript, Scala,</li>
+  <li>Develop, test, deploy environment and tools:  Docker, Linux/Unix (Ubuntu, Suse, Mac), Amazon EC2, git, maven, sbt.</li>
+</ul>
+
+<p>Please see my repositories on Github: <a href="https://github.com/jevy-wangfei">https://github.com/jevy-wangfei</a> to exam my software development skills.</p>
+
+<p>Please following the link to know me. <a href="./pdf/personal.pdf">Fei Wang’s CV</a></p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>

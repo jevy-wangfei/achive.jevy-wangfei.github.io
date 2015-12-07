@@ -3,7 +3,7 @@ layout: default
 title: About this blog
 dd: AboutThisBlog
 category: timeline
-tags: article
+tags: article personal
 ---
 <p>This is the first post on this new blog. I will update all of the messages about me here. </p>
 <p>Besides, I also displayed my design and picture in this blog. I am very interested in computer technology very much, and I hope to post the laterest information here.

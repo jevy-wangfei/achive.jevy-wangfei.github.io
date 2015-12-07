@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>Telecom Business Data Process</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<h1 id="telecom-business-intelligence">Telecom Business Intelligence</h1>
+
+<h2 id="objective">Objective</h2>
+<p>Telecom company manages millions subscribers and the subscribers generate billions calling and surfing internet records. With the increase of records, finding useful information becomes a challenge.
+This project will go to find/lean new pattern from the large volume of data by applying Machine Leaning technology. <br />
+Targets include:
+- Subscriber fraud detection
+- Valuable subscribers finding
+- Telecom Services using trend analysis
+- Business decision data preparing</p>
+
+<h2 id="why-focus-on-telecom-business-data">Why Focus on Telecom business data</h2>
+<ul>
+  <li>Telecom data volume is not small and not very big.
+The data volume of telecom is roughly TB per month. Perform any query to the records will very compute resource consuming. Analysis staffs can not execute SQL to find useful information. Big data tools (such as Hadoop) are too general and complex for telecom companies to apply them into activating business operation.</li>
+  <li>Telecom generates stream data
+Different with large scale batch data processing technology, telecom data is stream data and continuing lean technology is required.</li>
+  <li>This project will go to explore new methods to process TB/month volume stream data using distributed data processing tools.</li>
+  <li>This project will focus on new pattern finding in easy to use way for telecom companies. The vision is that normal office staffs can view and operate the intelligent data learning system without additional training of large scale data analysis.</li>
+</ul>
+
+<h2 id="problems-in-telecom-data">Problems in Telecom Data</h2>
+<ul>
+  <li>Data volume is TB per month.</li>
+  <li>Data analysis is needed every day.</li>
+  <li>General data analysis tools are not specifically developed for telecom data analysis. Such that they require experienced staff in telecom data analysis.</li>
+  <li>Lack of Data Analysis Expertise in telecom company.</li>
+  <li>General data analysis tools either processing TB data per day or GB data per month. They are not suitable for medium scale data process.</li>
+  <li>Telecom data analysis requires online and ongoing update analysis, since the subscribers generate data on time and these data are related from past to future.</li>
+  <li>Technology invests limitation to develop a new Data analysis tool.</li>
+</ul>
+
+<h2 id="solution-for-telecom-data">Solution for Telecom Data</h2>
+<p>Three layer artecher: Leaning engine, Leaning system management &amp; accessing application and User Interface (Explorer, Taplet, iOS, Android)
+- Learning Engine Features (Spark + Hadoop)
+  - Distributed computing network based
+  - Steam data leaning support
+  - Ongoing update leaning model
+  - Learn status and result stores in NoSQL database
+  - Telecom Customized learning models
+    - Fraud Detection
+    - Individual subscriber’s habit leaning
+    - Over view of service trends for groups
+    - other models which can be extended</p>
+
+<p><strong>Technique for learning engine</strong></p>
+
+<p>Our solution is to use Hadoop as distributed computing framework, use Spark and its machine learning library as leaning learning engine, which runs on Hadoop.
+- System Management &amp; Accessing Features(JavaEE + Jersey + Tomcat8)
+  - An united Management middleware will be designed to manage
+    - creating new leaning task
+    - checking on going leaning task
+    - querying finished leaning task and returning leaning results
+  - RESTful API will be well designed to make system friendly to kinds of user devices.</p>
+
+<p><strong>Technique for web application</strong></p>
+
+<p>Using tomcat as web application server, using javaEE and Jersey to program RESTful TelecomBI management and accessing application.
+- User Interface Features (JS (Jquery) + HTML&amp;CSS + Bootstrap)
+  - Using RESTful style accessing API to create user interface on multi-devices such as explorer, iOS, Android.</p>
+
+<p><strong>Technique for client</strong></p>
+
+<p>Using HTML&amp;CSS + Bootstrap to create user interface, Using JS accompanied with JQuery to query data from RESTful API server.</p>
+
+<h2 id="project-management">Project Management</h2>
+<ul>
+  <li>Development Stages
+    <ul>
+      <li>Requirements survey and research</li>
+      <li>Project planning</li>
+      <li>System design</li>
+      <li>Develop and test loop:
+        <ul>
+          <li>System Implementation</li>
+          <li>System Testing</li>
+          <li>System Integration and Test</li>
+        </ul>
+      </li>
+      <li>Publish System</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="technology-required">Technology Required</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Technology</th>
+      <th style="text-align: left">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Java Programming</td>
+      <td style="text-align: left">Implement TelecomBI Server. &lt;/br&gt; Implement Learning Engine</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Scala Programming</td>
+      <td style="text-align: left">Implement Learning Engine</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Jersey</td>
+      <td style="text-align: left">Implement Java RESTful web application</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Java EE</td>
+      <td style="text-align: left">Implement Java web application</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Tomcat</td>
+      <td style="text-align: left">Launch Jave Web Application</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Hadoop</td>
+      <td style="text-align: left">Implement Distributed computing framework</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Spark</td>
+      <td style="text-align: left">Implement Stream Data processing</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Machine Leaning</td>
+      <td style="text-align: left">Implement TelecomBI core learning Engin Algorithms</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HTML&amp;CSS</td>
+      <td style="text-align: left">Implement user interface</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Bootstrap</td>
+      <td style="text-align: left">Improve user interface and simplify UI development</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">JS (JQuery)</td>
+      <td style="text-align: left">Implement data query from web servers by RESTful API</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Maven</td>
+      <td style="text-align: left">Help to manage Java projects (Three projects)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Github</td>
+      <td style="text-align: left">Help to manage code and team development</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="required-open-soursce-project">Required open soursce project</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Project</th>
+      <th style="text-align: left">version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="http://spark.apache.org">Spark</a></td>
+      <td style="text-align: left">1.4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">Hadoop</a></td>
+      <td style="text-align: left">2.6</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">Jersey</a></td>
+      <td style="text-align: left">2.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">Tomcat</a></td>
+      <td style="text-align: left">8.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Java</td>
+      <td style="text-align: left">8.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Scala</td>
+      <td style="text-align: left">2.11.7</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">Bootstrap</a></td>
+      <td style="text-align: left">3.3.5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">JQuery</a></td>
+      <td style="text-align: left">2.1.4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HTML&amp;CSS</td>
+      <td style="text-align: left">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="">Maven</a></td>
+      <td style="text-align: left">3.3.3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="eclipse.apache.org">Eclipse</a></td>
+      <td style="text-align: left">4.5</td>
+    </tr>
+  </tbody>
+</table>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>
