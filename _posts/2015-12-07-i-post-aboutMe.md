@@ -26,4 +26,4 @@ In order to keep technology competitiveness, I am learning and keep tracking the
 
 Please see my repositories on Github: <a href="https://github.com/jevy-wangfei">https://github.com/jevy-wangfei</a> to exam my software development skills.
 
-Please following the link to know me. <a href="./pdf/personal.pdf">Fei Wang's CV</a>
+You can follow the link to view <a href="./pdf/personal.pdf">My CV</a>
