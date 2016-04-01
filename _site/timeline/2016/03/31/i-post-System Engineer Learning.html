@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>System Engineer Learning Portfolio</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<h1> The understanding and connection of basic software system engineering concepts</h1>
+
+<p><img src="../img/post/overall.png" />
+Figure 1</p>
+
+<p>The value of Software system is to solve problems. Any software have its own purpose, apply domain and interaction with people.  For example, the main purpose of courses management system is to manage students, courses and the student’s enrollment of kinds of courses. Eclipse software allows software engineer writing code easier without buying an IDE. Observing these software, we can find that there are several features shared by all of them. Firstly, they upgrade themselves to improve user experience after collection users’ feedback. Secondly, they fix a lot of bugs all the time when they upgrade. Thirdly, they provide several new features or functions in new version. Why the designers do these things in upgrade? Why not solve all of these issues at a time and release the software. To answer these questions, there are three key facts we should understand firstly. At beginning, the designer have to process kinds of chaotic requirements. The learning path looks like figure 2.  After that, the designer has to decide the priority of functions. The higher priority functions will be developed firstly, the lower will be provided to customer later. More than that, customer will desire some new requirements during their usage to improve their work quality. In this way, the software development is a live process. To continually improving the software, engineers have to follow the lifecycle to make their software system more functional and reliable. What more, the value of software comes from the interactive between customer and software. The more users of a software, the more requirements comes from users.  More requirements mean that the more matural of a software.
+<img src="../img/post/chaos.png" />
+Figure 2</p>
+
+<p>The real world is dominated by problem situation. People are good at solve problems, and people setup kinds of subjects to analysis, experiment, and learn the problem from simple to complexity, and we had developed the a lot of methods to solve them. For example, we solved water supply problems using tap water system in city and benefit every citizens, we solved the transport problem using trains, cars and motorway system. We can solve quite complexity problem such as making aircraft, submarine, and rocket etc. However, we can not solve the problems such as traffic jam, air pollution, homeless and wars. Most of the problems in our society are these problem situation. Taking software engineering for example, we can built powerful computer system, we can design kinds of software to solve real problems, and we can improve people’s live using technic. But we can not fully solve the problem situation. And what we are doing now is to solve part of the problem situation, analysis its affection, and then solve another part of the problem situation after getting feedback of interaction.</p>
+
+<p>Dynamic complexity is the key issue for software system designing. As we have learned from the lectures,  Technic people are good at decompose analyzing, however, the general analyzing tools have been proved not suitable for dynamic complexity problems. In this situation, the design thinking was developed and proved to be a powerful way to solve the dynamic complexity problems. The software system engineering adopted this new tool and developed agile software management. The agile software development is an interaction iterator processing. For example, facing the hug and complexity problems/problem situation, software engineers firstly solve small part of the problems/problem situation, track the interactions between the solution and its applying environment, analysis the new problems caused by the solution, and then solve more port of the problems/problem situation plus the new problems.</p>
+
+<p><br />
+<br /></p>
+<h1> More Learning and Thinking from the Lectures</h1>
+
+<h3> 1. How cloud computing reduces pollution </h3>
+
+<p>What IT technic has done on information revolution changes the way of communication, the way of resource management and the way of computation. IT always do good things to make the world a good place without any emissions. However, with the development of IT, there are more and more computers and equipment running now a days, and IT becomes a engine consuming industry. Also, the obsolete equipment decomposing method now a days causes another pollution to environment.</p>
+
+<p>Cloud computing is a way to solve this issue. It can reduce pollution in several ways.</p>
+
+<p>First, it maximizes the computing powder of servers to reduce the engine consuming cost by idle servers in datacenter all over the world. Secondly, cloud computing datacenters are mostly located near hydroelectric power station, wind powder station or cooler place where can cool down the servers using cold air or cold water there. Thirdly, cloud computing datacenters use thousands of commodity computers to provide powerful virtual server. The improvement of computing power can be done by adding more computers without discurding the old ones. Also, the recycle of these server can be done by the company who run the cloud computing to reduce the E-waste.</p>
+
+<h3> 2. Design Thinking </h3>
+<p>In my perspective, IT system design includes human-centred design and software design.</p>
+
+<p>Human-centred design focuses on the interactive interface with human. In fact, when I and my team design a online food booking and delivery system, what our tutor concern is UI, and it should be as simple as possible for terminal users’ usage. To approach the design strategy, we cancel the register/login step to allow users directly booking dishes whenever they feel hungry. The process of getting feed is also as simple as choosing a restaurant, choosing dishes, selecting desirable delivery time. What customer doing after “choosing” is waiting the dishes coming to their dinning-table. They can track their dishes using the booking application.</p>
+
+<p>As you know, human have the limitation on processing plenty of words and pictures. A user friendly application should be less on words and simple on operations.</p>
+
+<p>As an extension of the lecture, I believe that software API design is another important aspect in design thinking. Now a days, people built software system using a lot of third party libraries to save time and reduce IT risks. The factors of extendable, pluggable and easy to use greatly impact the way  of how software engineers involve the libraries and apply them to their application. They are the design thinking strategy on API.</p>
+
+<h3> 3. Cyber Security </h3>
+<p>Every system have bugs exposed to hackers and make the system vulnerable. Hacking through these loopholes allows hacker accessing, controlling and even damaging the system. Through security company do a lot on the defense of attacking, the ways of attacking are growing much faster than what security people done. Why? The drive of  profit comes from the black chain. Learning from the data showing during the lecture, personal information and zombie BotNet are very valuable. AD injection by hacking website can also earn a lot of money for the hackers. On other hand, the hackers’ activities are not tractable. And Government does little for cyber crime.</p>
+
+<p>On other hand, improvement of security on a IT system will increase the complexity of human usage.  To smooth the usage experience, some company even lower the security level and put their users’ personal information in danger. Fortunately, a lot of IT company are trying to find  new and  more  ways of security authorizing and abandoning the way of using username and password. Also, technics, such as https and ssh, are adopted by more and more IT company to secure the transaction between server and client.</p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>
