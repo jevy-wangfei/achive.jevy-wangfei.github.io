@@ -1,15 +1,13 @@
 ---
 layout: default
 title: Hight Light Notebook
-dd: HightLightNoteBook
+dd: HightightNoteBook
 category: timeline
-tags: design
+tags: project picture
 quote: Hight Light Notebook allows you marking, editing and saving your modification on an online notebook.
 ---
-<h2> Editing Web Page</h2>
+<p> Editing Web Page</p>
+<img src="../img/tmp/hightllight1.png">
 
-<img src="../img/tmp/hightlight1.png">
-
-<h2> Online notebook</h2>
-
-<img src="../img/tmp/hightlight2.png">
+<p> Online notebook</p>
+<img src="../img/tmp/hightllight2.png">
