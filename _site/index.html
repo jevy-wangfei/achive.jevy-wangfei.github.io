@@ -9,7 +9,7 @@
 
 　　　　<div id="menu">
 <li><a href="#" id="personal">Personal</a></li>
-<li><a href="#" id="project">Project</a></li>
+<li><a href="#" id="project">Works</a></li>
 <li><a href="#" id="article">Article</a></li>
 <li><a href="#" id="picture">Picture</a></li>
 <li><a href="#" id="portfolio">Learn Portfolio</a></li>
@@ -20,11 +20,32 @@
 <div class="me_img"><img src="img/me.jpg" /></div>
 <div class="me">
 <h1>Wang Fei</h1>
-<p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
-I go to ANU for further study. I will graduate at May 2016.</p>
+<p>A graduate master of computer science student.
+Four years java programming experience, and familiar with python, shell, PL/SQL, JS, Linux/Unix, Oracle, MySQL, Cassandra and computer network.<br />
+
+Resume: <a href="./pdf/CV_2016_07.pdf">Wang's CV in pdf</a>  &nbsp;
+Github Addr: <a href="https://github.com/jevy-wangfei">Github</a> &nbsp;
+Recent works:
+            <a href="#" onclick="showArticle('FeedMe')">
+                <span class="post-teaser__title">FeedMe</span>
+                <!-- <span class="post-teaser__date">25 July 2016</span> -->
+            </a>
+,
+              <a href="#" onclick="showArticle('HightightNoteBook')">
+                  <span class="post-teaser__title">Hight Light Notebook</span>
+                  <!-- <span class="post-teaser__date">24 July 2016</span> -->
+              </a>
+              </p>
 </div>
 </div>
 <div class="leftNav">
+    
+        <li class="post-teaser personal picture" onclick="showArticle('aboutMe')">
+            <a href="#">
+                <span class="post-teaser__title">About Me</span>
+                <!-- <span class="post-teaser__date">30 December 2016</span> -->
+            </a>
+        </li>
     
         <li class="post-teaser project picture" onclick="showArticle('FeedMe')">
             <a href="#">
@@ -75,13 +96,6 @@ I go to ANU for further study. I will graduate at May 2016.</p>
             </a>
         </li>
     
-        <li class="post-teaser personal picture" onclick="showArticle('aboutMe')">
-            <a href="#">
-                <span class="post-teaser__title">About Me</span>
-                <!-- <span class="post-teaser__date">07 December 2015</span> -->
-            </a>
-        </li>
-    
         <li class="post-teaser personal picture" onclick="showArticle('Resume')">
             <a href="#">
                 <span class="post-teaser__title">Resume</span>
@@ -114,13 +128,6 @@ I go to ANU for further study. I will graduate at May 2016.</p>
             <a href="#">
                 <span class="post-teaser__title">Manage your team</span>
                 <!-- <span class="post-teaser__date">04 October 2015</span> -->
-            </a>
-        </li>
-    
-        <li class="post-teaser project" onclick="showArticle('FeedMe')">
-            <a href="#">
-                <span class="post-teaser__title">Feed Me</span>
-                <!-- <span class="post-teaser__date">03 October 2015</span> -->
             </a>
         </li>
     
@@ -269,6 +276,50 @@ I go to ANU for further study. I will graduate at May 2016.</p>
 
 
 
+				
+					
+					    <div class="post__timeline personal picture" id="aboutMe">
+					    	<div class="timeline__meta">
+								<time datetime="2016-12-30 00:00:00 +1100">
+									December<br /><small>2016</small>
+								</time>
+							</div>
+							<div class="timeline__body">
+								
+
+									<blockquote>
+										<span class="quote">&#8220;<br />&#8221;</span>
+										<p>A Personal Statement. Please contact with email <a href="mailto:jevy.wangfei@gmail.com">jevy.wangfei@gmail.com</a> .</p>
+									</blockquote>
+									<p>I am Fei Wang, a graduate Master of Computer Science student majoring in Computing in Australia National University (ANU). My undergraduate major was chemical engineering and technology, but I started my IT journey in July 2009 when I was asked to design and code a chemical data processing and management system.</p>
+
+<p>I have three years work experience of system maintenance and support. I had worked on a telecom billing system as deployment and maintenance engineer for three years at ZTEsoft. This complex real-time system runs on 6 UNIX servers and 20 Linux servers. My work was to deploy, test, routinely maintain and remotely upgrade systems using SSH. This work polished my knowledge of UNIX/Linux, Shell, computer network, Java, Python, SQL, Oracle Database and the Web. B</p>
+
+<p>I also leaded a deploy team to work on the Bangladesh Internal Exchange and International Gateway billing project. Our team successfully complete this project and got the provisional acceptance certificate (PAC) from customers two months ahead the deadline, which benefit our company a lot.</p>
+
+<p>During past year, I have managed a team who were developing an online food booking and delivery application named FeedMe. Technics such as Java, swift (IOS), JavaScript, Socket, RESTful API, Bootstrap, JS and HTML etc. were involved in the project. Besides project management, designing the software structure and programming the core functions, I implemented and maintained our RESTful web APIs on Amazon EC2. The following pictures display our achievements.
+<img src="../img/tmp/feedme_in_one.png" /></p>
+
+<p>I was studying large scale data process and machine learning in ANU. To improve my knowledge of computer science, I completed the courses of relation database, algorithm, software construction, model driven software development and project management, computer network, artificial intelligent, statistic machine learning and document analyzing.</p>
+
+<p>In order to keep technology competitiveness, I am learning and keep tracking the following technics.</p>
+
+<ul>
+  <li>Data processing: Spark, Cassandra, MongoDB, Hadoop.</li>
+  <li>Web development: Spring boot, Python, Bootstrap, JQuery, Nodejs(Express), Meteor, flask.</li>
+  <li>Program language: Java, Python (in science and AI subjects), JavaScript, Scala,</li>
+  <li>Develop, test, deploy environment and tools:  Docker, Linux/Unix (Ubuntu, Suse, Mac), Amazon EC2, git, maven, sbt.</li>
+</ul>
+
+<p>Most of my works are hosted on Github: <a href="https://github.com/jevy-wangfei">https://github.com/jevy-wangfei</a>.</p>
+
+<p>You also can follow this link to view <a href="./pdf/CV_2016_07.pdf">My CV</a></p>
+
+								
+
+							</div>
+					    </div>
+					
 				
 					
 					    <div class="post__timeline project picture" id="FeedMe">
@@ -540,49 +591,6 @@ Figure 2</p>
 					
 				
 					
-					    <div class="post__timeline personal picture" id="aboutMe">
-					    	<div class="timeline__meta">
-								<time datetime="2015-12-07 00:00:00 +1100">
-									December<br /><small>2015</small>
-								</time>
-							</div>
-							<div class="timeline__body">
-								
-
-									<blockquote>
-										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>Personal State. Cover Latter. <a href="https://github.com/jevy-wangfei"> My Github </a>.</p>
-									</blockquote>
-									<p>I am Fei Wang, a second year master student majoring in Computing in Australia National University (ANU). I have found the Informatics Software Engineer job opportunity from CSIRO website.</p>
-
-<p>Prior to studying in ANU, I had worked at ZTE soft on a large scale information manage system called Business Operate and Service Support (BOSS) for almost 3 years, which provides services such as online prepaid/postpaid billing, balance recharging, service opening/closing, accounting, international/domestic settlement, services provisioning etc. When I was working on the projects in Vietnam and Myanmar, my major responsibility was deploying, testing, optimizing and maintaining the BOSS system running on more than 10 IBM AIX UNIX and SUSE Linux servers.) The work was challenging because of the large scale of subscribers, high concurrences, large scale of data and tight-timeframe. However, I always achieved the targets because of the characters of carefulness, patience, calmness, credibility and experience of real-time business operation. I believe these characteristics can also be helpful for the job I am applying for.
-I also leaded a deploy team to work on the Bangladesh Internal Exchange and International Gateway billing project. Our team successfully complete this project and got the provisional acceptance certificate (PAC) from customers two months ahead the deadline, which benefit our company a lot.</p>
-
-<p><img src="../img/me.jpg" /></p>
-
-<p>Base on these experience, I am confident that several features promising me be capable for the job. Firstly, I master a lot of IT technics and acquire knowledge of Linux/Unix management, Oracle/MySQL maintain, IT system implementation, IT system management, high availability management, http server management, web service frameworks, and programming using java, python, shell, PL/SQL and C++. Secondly, I have high vision of IT system, which will highly improve the production and quality of code. Thirdly, I experienced IT projects in three countries and launched them for commercial usage. These experiences will highly facilitate me for new tight-timeframe projects, and help me to overcome challenges.</p>
-
-<p>I am studying large scale data process and machine learning in ANU. To improve my knowledge of computer science, I completed the courses of relation database, algorithm, software construction, model driven software development and project management in the last 1.5 years, and courses of computer network, distributed system will be considered in next semester.
-In order to keep technology competitiveness, I am learning and keep tracking the following technics.</p>
-
-<ul>
-  <li>Data processing: Spark, Cassandra, MongoDB, Hadoop.</li>
-  <li>Web development: Spring boot, Python, Bootstrap, JQuery, Nodejs(Express), Meteor, flask.</li>
-  <li>Program language: Java, Python (in science and AI subjects), JavaScript, Scala,</li>
-  <li>Develop, test, deploy environment and tools:  Docker, Linux/Unix (Ubuntu, Suse, Mac), Amazon EC2, git, maven, sbt.</li>
-</ul>
-
-<p>Please see my repositories on Github: <a href="https://github.com/jevy-wangfei">https://github.com/jevy-wangfei</a> to exam my software development skills.</p>
-
-<p>You can follow the link to view <a href="./pdf/personal.pdf">My CV</a></p>
-
-								
-
-							</div>
-					    </div>
-					
-				
-					
 					    <div class="post__timeline personal picture" id="Resume">
 					    	<div class="timeline__meta">
 								<time datetime="2015-11-01 00:00:00 +1100">
@@ -594,9 +602,9 @@ In order to keep technology competitiveness, I am learning and keep tracking the
 
 									<blockquote>
 										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>Resume Link, a detailed resume</p>
+										<p>A detailed resume linkage.</p>
 									</blockquote>
-									<p>Please following the link to <a href="./pdf/personal.pdf">Fei Wang’s detailed CV</a> to view my Resume.</p>
+									<p>Please following the link <a href="./pdf/CV_2016_07.pdf">Fei Wang’s detailed CV</a> to view my Resume.</p>
 
 								
 
@@ -728,41 +736,6 @@ In order to keep technology competitiveness, I am learning and keep tracking the
 <p>Moreover,  I have to think forward of the project and generate new tasks to assign them to team members. My routine job is to push every one work forward, pull their work to right direction, and adjust their work effort by estimating their work abilities.</p>
 
 <p>This experience teaches me a lot on managing a team.  Especially, when the members of team comes from my classmate and they are weak on programing, database and Linux etc. skills.</p>
-
-								
-
-							</div>
-					    </div>
-					
-				
-					
-					    <div class="post__timeline project" id="FeedMe">
-					    	<div class="timeline__meta">
-								<time datetime="2015-10-03 00:00:00 +1000">
-									October<br /><small>2015</small>
-								</time>
-							</div>
-							<div class="timeline__body">
-								
-
-									<blockquote>
-										<span class="quote">&#8220;<br />&#8221;</span>
-										<p>The goal of Fee me project is to use a professional delivery team to delivery any restaurants' dishes to customers.</p>
-									</blockquote>
-									<h1 id="feed-me">Feed Me</h1>
-
-<p>You can find the project on <a href="https://github.com/jevy-wangfei/PowerFTP">Feed Me</a> .</p>
-
-<p>As increasingly number of people start to use the smart device for online shopping, one of the most common device is personal computer, another one is smart phone application. Mobile Apps have become a hotly contested spot and its importance is also growing concern by the most of businesses.</p>
-
-<p>The goals of this project are as follows:</p>
-
-<ul>
-  <li>Find the potential cooperative partner;</li>
-  <li>Build the symbiosis with restaurants who want to offer the take-away service;</li>
-  <li>Design the Food Order &amp; Delivered platform;</li>
-  <li>Implement this system in both website and mobile Apps.</li>
-</ul>
 
 								
 

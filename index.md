@@ -4,7 +4,7 @@ title: Jevy's Blog
 ---
 <div id="menu">
 <li><a href="#" id="personal">Personal</a></li>
-<li><a href="#" id="project">Project</a></li>
+<li><a href="#" id="project">Works</a></li>
 <li><a href="#" id="article">Article</a></li>
 <li><a href="#" id="picture">Picture</a></li>
 <li><a href="#" id="portfolio">Learn Portfolio</a></li>
@@ -15,8 +15,22 @@ title: Jevy's Blog
 <div class="me_img"><img src="img/me.jpg"/></div>
 <div class="me">
 <h1>Wang Fei</h1>
-<p>I am interested in large-scale data process and artificial intelligent. After working in ZTESoft for three years,
-I go to ANU for further study. I will graduate at May 2016.</p>
+<p>A graduate master of computer science student.
+Four years java programming experience, and familiar with python, shell, PL/SQL, JS, Linux/Unix, Oracle, MySQL, Cassandra and computer network.<br>
+
+Resume: <a href="./pdf/CV_2016_07.pdf">Wang's CV in pdf</a>  &nbsp;
+Github Addr: <a href="https://github.com/jevy-wangfei">Github</a> &nbsp;
+Recent works:
+            <a href="#" onclick="showArticle('FeedMe')">
+                <span class="post-teaser__title">FeedMe</span>
+                <!-- <span class="post-teaser__date">25 July 2016</span> -->
+            </a>
+,
+              <a href="#" onclick="showArticle('HightightNoteBook')">
+                  <span class="post-teaser__title">Hight Light Notebook</span>
+                  <!-- <span class="post-teaser__date">24 July 2016</span> -->
+              </a>
+              </p>
 </div>
 </div>
 <div class="leftNav">

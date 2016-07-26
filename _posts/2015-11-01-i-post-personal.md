@@ -4,7 +4,7 @@ title: Resume
 dd: Resume
 category: timeline
 tags: personal picture
-quote: Resume Link, a detailed resume
+quote: A detailed resume linkage.
 ---
 
-Please following the link to <a href="./pdf/personal.pdf">Fei Wang's detailed CV</a> to view my Resume.
+Please following the link <a href="./pdf/CV_2016_07.pdf">Fei Wang's detailed CV</a> to view my Resume.

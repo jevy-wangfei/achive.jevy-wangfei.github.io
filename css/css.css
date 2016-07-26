@@ -17,7 +17,7 @@ padding-left: 200px;}
 	float: left; margin-left: 300px;
 min-height: 700px;
 	}
-#aboutme { padding-top:40px; padding-bottom:50px;  clear:both; margin-left: 50px;}
+#aboutme { padding-top:30px; padding-bottom:50px;  clear:both; margin-left: 50px;}
 #aboutme img{
 	border-radius: 10px;
 	width:180px;
@@ -27,7 +27,7 @@ min-height: 700px;
 	float: left;
 }
 .me{
-	width: 600px;
+	width: 800px;
 	float: left;
 	margin: 20px;
 	margin-left: 60px;

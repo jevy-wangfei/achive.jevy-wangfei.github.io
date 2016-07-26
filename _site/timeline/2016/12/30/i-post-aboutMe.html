@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>About Me</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p>I am Fei Wang, a graduate Master of Computer Science student majoring in Computing in Australia National University (ANU). My undergraduate major was chemical engineering and technology, but I started my IT journey in July 2009 when I was asked to design and code a chemical data processing and management system.</p>
+
+<p>I have three years work experience of system maintenance and support. I had worked on a telecom billing system as deployment and maintenance engineer for three years at ZTEsoft. This complex real-time system runs on 6 UNIX servers and 20 Linux servers. My work was to deploy, test, routinely maintain and remotely upgrade systems using SSH. This work polished my knowledge of UNIX/Linux, Shell, computer network, Java, Python, SQL, Oracle Database and the Web. B</p>
+
+<p>I also leaded a deploy team to work on the Bangladesh Internal Exchange and International Gateway billing project. Our team successfully complete this project and got the provisional acceptance certificate (PAC) from customers two months ahead the deadline, which benefit our company a lot.</p>
+
+<p>During past year, I have managed a team who were developing an online food booking and delivery application named FeedMe. Technics such as Java, swift (IOS), JavaScript, Socket, RESTful API, Bootstrap, JS and HTML etc. were involved in the project. Besides project management, designing the software structure and programming the core functions, I implemented and maintained our RESTful web APIs on Amazon EC2. The following pictures display our achievements.
+<img src="../img/tmp/feedme_in_one.png" /></p>
+
+<p>I was studying large scale data process and machine learning in ANU. To improve my knowledge of computer science, I completed the courses of relation database, algorithm, software construction, model driven software development and project management, computer network, artificial intelligent, statistic machine learning and document analyzing.</p>
+
+<p>In order to keep technology competitiveness, I am learning and keep tracking the following technics.</p>
+
+<ul>
+  <li>Data processing: Spark, Cassandra, MongoDB, Hadoop.</li>
+  <li>Web development: Spring boot, Python, Bootstrap, JQuery, Nodejs(Express), Meteor, flask.</li>
+  <li>Program language: Java, Python (in science and AI subjects), JavaScript, Scala,</li>
+  <li>Develop, test, deploy environment and tools:  Docker, Linux/Unix (Ubuntu, Suse, Mac), Amazon EC2, git, maven, sbt.</li>
+</ul>
+
+<p>Most of my works are hosted on Github: <a href="https://github.com/jevy-wangfei">https://github.com/jevy-wangfei</a>.</p>
+
+<p>You also can follow this link to view <a href="./pdf/CV_2016_07.pdf">My CV</a></p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>
