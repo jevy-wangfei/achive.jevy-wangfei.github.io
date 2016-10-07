@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>Spring Roll</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<p> Web UI of Spring roll</p>
+<p><a href="http://ec2-52-27-31-179.us-west-2.compute.amazonaws.com:8080/springroll/static/">
+<img src="../img/tmp/springroll.png" /></a></p>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>
