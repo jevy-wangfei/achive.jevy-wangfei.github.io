@@ -15,8 +15,7 @@ title: Jevy's Blog
 <div class="me_img"><img src="img/me.jpg"/></div>
 <div class="me">
 <h1>Wang Fei</h1>
-<p>A graduate master of computer science student.
-Four years java programming experience, and familiar with python, shell, PL/SQL, JS, Linux/Unix, Oracle, MySQL, Cassandra and computer network.<br>
+<p>A graduate master of computer science graduate with four years java programming experience, and familiar with JS, python, shell, PL/SQL, Linux/Unix, Oracle, MySQL, Cassandra and computer network.<br>
 
 Resume: <a href="./pdf/personal.pdf">Wang's CV in pdf</a>  &nbsp;
 Github Addr: <a href="https://github.com/jevy-wangfei">Github</a> &nbsp;
