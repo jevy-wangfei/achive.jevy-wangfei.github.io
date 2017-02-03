@@ -7,8 +7,8 @@ title: Jevy's Blog
 <li><a href="#" id="project">Works</a></li>
 <li><a href="#" id="article">Article</a></li>
 <li><a href="#" id="picture">Picture</a></li>
-<li><a href="#" id="portfolio">Learn Portfolio</a></li>
-<li><a href="#" id="pc">PC Blog</a></li>
+<!-- <li><a href="#" id="portfolio">Learn Portfolio</a></li>
+<li><a href="#" id="pc">PC Blog</a></li> -->
 <li><a href="#" id="all" class="live">All</a></li>
 </div>
 <div id="aboutme">
@@ -18,21 +18,13 @@ title: Jevy's Blog
 <p>A graduate master of computer science student.
 Four years java programming experience, and familiar with python, shell, PL/SQL, JS, Linux/Unix, Oracle, MySQL, Cassandra and computer network.<br>
 
-Resume: <a href="./pdf/CV_2016_07.pdf">Wang's CV in pdf</a>  &nbsp;
+Resume: <a href="./pdf/personal.pdf">Wang's CV in pdf</a>  &nbsp;
 Github Addr: <a href="https://github.com/jevy-wangfei">Github</a> &nbsp;
-Recent works:
-            <a href="#" onclick="showArticle('FeedMe')">
-                <span class="post-teaser__title">FeedMe</span>
-                <!-- <span class="post-teaser__date">25 July 2016</span> -->
-            </a>
-,
-              <a href="#" onclick="showArticle('HightightNoteBook')">
-                  <span class="post-teaser__title">Hight Light Notebook</span>
-                  <!-- <span class="post-teaser__date">24 July 2016</span> -->
-              </a>
-              </p>
+Recent <a href="#projectList"> Works </a>
+  </p>
 </div>
 </div>
+<div class="content">
 <div class="leftNav">
     {% for post in site.posts %}
         <li class="post-teaser {{ post.tags | join:' ' }}" onclick="showArticle('{{post.dd}}')">
@@ -72,8 +64,9 @@ Recent works:
 					{% endif %}
 				{% endfor %}
 
-
+      </div>
 </div>
+
 <div id="footer">
 {% include footer.html %}
 </div>

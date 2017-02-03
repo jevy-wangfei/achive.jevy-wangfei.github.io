@@ -1,9 +1,8 @@
 ---
 layout: default
 title: IT Project = Business? Not as simple as the equation
-dd: ITProjectBusiness
 category: timeline
-tags: pc
+tags: personal article
 quote: A Good IT project does not means a good business in furture. More things required to make project becoming business.
 ---
 

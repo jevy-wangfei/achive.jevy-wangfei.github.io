@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Inteview Preparation
-dd: InteviewPreparation
 category: timeline
-tags: pc
+tags: personal article
 quote: Perform your real characters to interviewer, don't copy answers from templates.
 ---
 Through email is not the most efficient communication way, it is the most popular way to communicate in people.  Ten The interview is often the most daunting part of the English communication for many international students who come from non- English speaking country.  

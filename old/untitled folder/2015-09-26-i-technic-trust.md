@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Technic Trust
-dd: TechnicTrust
 category: timeline
-tags: pc
+tags: personal article
 quote: Back Door!!! How to check whether there are back doors in software? Code Review? It's Technic Trust issue, and it will become a obstruction of technic development.
 ---
 Today I ready the report from Baidu News that American technology giant IBM will allow Chinese government access its software codes. Chinese government officials will be able to check the codes in the cleanroom to make sure they conform to Chinese national information security policies.   

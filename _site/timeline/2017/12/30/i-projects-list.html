@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>Project List</title>
+		<link rel="stylesheet" href="/css/css.css">
+　　</head>
+　　<body>
+
+　　　　<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Date</th>
+      <th style="text-align: center">Name</th>
+      <th style="text-align: center">Type</th>
+      <th style="text-align: center">Techniques used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Working on</td>
+      <td style="text-align: center"><a href="#FeedMe">FeedMe</a></td>
+      <td style="text-align: center">Group Project -&gt; Personal Project</td>
+      <td style="text-align: center">Java(Springboot), Angular, Bootstrap, JQuery, AJAX, Web Socket, Java Socket, Swift, MySQL, Amazon AWS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Working on</td>
+      <td style="text-align: center">My Shift</td>
+      <td style="text-align: center">Personal Project</td>
+      <td style="text-align: center">Node.js, Angular, Bootstrap, JQuery, AJAX, MySQL</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Jan 2017</td>
+      <td style="text-align: center">UI design to web</td>
+      <td style="text-align: center">Freelancer</td>
+      <td style="text-align: center">HTML5, CSS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Nov 2016</td>
+      <td style="text-align: center">Back-end API implement with PHP</td>
+      <td style="text-align: center">Freelancer</td>
+      <td style="text-align: center">PHP</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Nov 2016</td>
+      <td style="text-align: center"><a href="#picgallery"> Picture Gallery </a></td>
+      <td style="text-align: center">Freelancer</td>
+      <td style="text-align: center">JQuery, Flask, JS, AJAX, Bootstrap, HTML5, CSS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Oct 2016</td>
+      <td style="text-align: center">Spring Roll</td>
+      <td style="text-align: center">Freelancer</td>
+      <td style="text-align: center">Bootstrap, HTML5, CSS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Sep 2016</td>
+      <td style="text-align: center"><a href="#PatientVisit"> Patients Visit (Single Page App) </a></td>
+      <td style="text-align: center">Code Challenge</td>
+      <td style="text-align: center">JQuery, Bootstrap, LESS, JS, HTML5, CSS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">May 2016</td>
+      <td style="text-align: center">Photo Post Cards</td>
+      <td style="text-align: center">Freelancer</td>
+      <td style="text-align: center">Bootstrap, HTML5, CSS</td>
+    </tr>
+  </tbody>
+</table>
+
+
+　　</body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post__timeline');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				$(document).ready(function() {
+            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
+                var filterSelect = "#" + this.id;
+				var post = $('.post-teaser');
+				var menu_show = this.id.toLowerCase().toString();
+				post.fadeOut(300);
+				//alert(filterSelect);
+                $('#menu').children().removeClass('live');
+				//alert(menu_show);
+                $(filterSelect).addClass('live');
+				if (menu_show=="all") {
+					post.fadeIn(600);
+				}
+				else {
+					post.filter('.' + menu_show).fadeIn(600);
+				};
+                e.preventDefault();
+            });
+        });
+
+				function showArticle(id){
+					$('.post__timeline').fadeOut(100);
+					console.log(id);
+					$("#"+id).fadeIn(600);
+				}
+    </script>
+　　</html>
