@@ -9,9 +9,11 @@ Working Log:
 * March 11, 5 hours (3:00 pm - 5:30 pm, 9:00 - 11:30), General Administration, Using Cassandra, SQL Programming
 * March 12, 3 hours (11:00 pm - 02:00 am) General Administration, Concurrency Programming
 * March 13, 3.5 hours (11:00 am - 01:00 pm, 10:30 - now) Concurrency Programming
+
 Total: 15.5 hours
 
 > My apology for I could just spend several hours a day on this test. Because on-going part-time works and freelancer projects took too much of my time. I hope my response to these questions satisfies you.
+
 -----------------
 
 ## 1. Bash Scripting
@@ -23,7 +25,9 @@ Total: 15.5 hours
 * Execute `nmon` and type `c`, `m`, `k`, `n` and `d` to monitor CPU usage, memory usage, kernal info, network, and disk read/write.
 ![nmon c m k n d](img/nmon_c_m_k_n_d.png)
 The CPU usage, memory usage, kernal info, network, and disk read/write are normal.
+
 `Type `c`, `m`, `k`, `n` and `d` again to hidden these information.`
+
 * Type `j` and `t` to monitor file system and top processes.
 ![nmon j t](img/nmon_j_t.png)
 
@@ -47,18 +51,18 @@ Execute `ps -ef|grep ntpd` to lookup ntpd process
 > **Problem:** System time is incorrect and `ntpd` process is not running.
 
 
-* Execute `netstat -l` to check openning port
+* Execute `netstat -l` to check openning ports, only several ports open to public. Network configuration secure.
 ![netstat](img/netstat.png)
 
 
 ## 3. General Programming
-* `javac GeneralProgramming.java` to compile.
-* `java -cp . GeneralProgramming` to run it.
+* Run `javac GeneralProgramming.java` to compile,
+* and run `java -cp . GeneralProgramming` to run the program.
 
 ## 4. Concurrency Programming
-* Code is located in directory MultiThreadStatician
-* `make all` to compile and run the program
-* `make clean` to remove generated classes
+* Code is located in directory of `MultiThreadStatician`.
+* `make all` to compile and run the program.
+* `make clean` to remove generated classes.
 
 ## 5. SQL Programming
 * List the title, release year, genre and director of all  **'action'**  movies.
@@ -75,7 +79,8 @@ SELECT a.name, a.birth_year FROM actors a inner join  movie_cast c inner join mo
     and c.movie_release_year = m.release_year
     and m.director = "Wes Anderson";
 ```
-
+> Because primary key of actors is foreign key of movie_cast, table `actors` can be removed from above sql.
+* **Short version** of list the actors and their birth year for all movies directed by  **'Wes Anderson'**
 ```sql
 SELECT c.actor, c.birth_year FROM  movie_cast c inner join movies m  
   on c.movie = m.title
@@ -102,18 +107,13 @@ on m.title=s.title and m.release_year = s.release_year;
 ```bash
 ./cqlsh 52.24.8.111  9042 –u iccassandra -p b13e656dbbd8762b645e314914a4165f
 ```
- (Instaclustr automatically adds my public to allowed addresses list of cluster's firewall)
+ > Instaclustr automatically adds my public to allowed addresses list of cluster's firewall, there is not need to do too much network configuration on cluster
 
-* Create keyspace:
+* Create keyspace and use keyspace:
 ```sql
 create keyspace moviecategory with replication = {'class':'SimpleStrategy','replication_factor':3};
 ```
 ![Create Keyspace](img/createKeyspace.png)
-
-```sql
-use moviecategory;
-```
-![Use Keyspace](img/useKeyspace.png)
 
 * Create table:
 ```sql
@@ -127,10 +127,13 @@ CREATE TABLE movies (
 ```
 ![Create Table](img/createTable.png)
 ![Display Table](img/displayTable.png)
+
 * Load data:
 ```sql
 COPY movies FROM ('instaclustr/movies.csv') WITH DELIMITER=',' AND HEADER='true';
 ```
+> Assuming you are running `cqlsh` at the same directory with directory `instaclustr`, so that `cqlsh` can access `movies.csv` which under `instaclustr`.
+
 ![loadData](img/loadData.png)
 ![queryData](img/queryData.png)
 
