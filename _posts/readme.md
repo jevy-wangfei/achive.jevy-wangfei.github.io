@@ -11,7 +11,7 @@ Working Log:
 * March 13, 3.5 hours (11:00 am - 01:00 pm, 10:30 - now) Concurrency Programming
 Total: 15.5 hours
 
-My apology for I could just spend several hours a day on this test. Because on-going part-time works and freelancer projects took too much of my time. I hope my response to these questions satisfies you.
+> My apology for I could just spend several hours a day on this test. Because on-going part-time works and freelancer projects took too much of my time. I hope my response to these questions satisfies you.
 -----------------
 
 ## 1. Bash Scripting
