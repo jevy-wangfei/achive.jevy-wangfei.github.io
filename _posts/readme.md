@@ -80,6 +80,7 @@ SELECT a.name, a.birth_year FROM actors a inner join  movie_cast c inner join mo
     and m.director = "Wes Anderson";
 ```
 > Because primary key of actors is foreign key of movie_cast, table `actors` can be removed from above sql.
+
 * **Short version** of list the actors and their birth year for all movies directed by  **'Wes Anderson'**
 ```sql
 SELECT c.actor, c.birth_year FROM  movie_cast c inner join movies m  
@@ -107,7 +108,7 @@ on m.title=s.title and m.release_year = s.release_year;
 ```bash
 ./cqlsh 52.24.8.111  9042 –u iccassandra -p b13e656dbbd8762b645e314914a4165f
 ```
- > Instaclustr automatically adds my public to allowed addresses list of cluster's firewall, there is not need to do too much network configuration on cluster
+ > Instaclustr automatically adds my public to allowed addresses list of cluster's firewall, this greatly simplify network configuration on cluster
 
 * Create keyspace and use keyspace:
 ```sql
@@ -180,3 +181,5 @@ However, in real practice, we should analysis and measure our own application an
 * Ref. https://plumbr.eu/blog/garbage-collection/g1-vs-cms-vs-parallel-gc
 * Ref. http://javapapers.com/java/types-of-java-garbage-collectors
 * Ref. https://blogs.oracle.com/vikram/entry/garbage_first_3_differences_between
+
+
